@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.Compiler.Launcher", "Krkal.Compiler.Launcher\Krkal.Compiler.Launcher.csproj", "{838B8AEA-C0C6-4608-B8AA-17F3FC4DE9D9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
@@ -19,16 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.Compiler", "Krkal.Com
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.FileSystem", "Krkal.FileSystem\Krkal.FileSystem.vcproj", "{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.FileSystem", "Krkal.FileSystem\Krkal.FileSystem.vcxproj", "{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.FileSystem.Net", "Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcproj", "{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.FileSystem.Net", "Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcxproj", "{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -77,20 +74,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.CodeGenerator", "Krka
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Runtime", "Krkal.Runtime\Krkal.Runtime.vcproj", "{6094BA14-FD72-4458-88F3-1EB9426280A5}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Runtime", "Krkal.Runtime\Krkal.Runtime.vcxproj", "{6094BA14-FD72-4458-88F3-1EB9426280A5}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Runtime.Net", "Krkal.Runtime.Net\Krkal.Runtime.Net.vcproj", "{ED263187-A564-4CAC-8145-FF14517D73FF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6094BA14-FD72-4458-88F3-1EB9426280A5} = {6094BA14-FD72-4458-88F3-1EB9426280A5}
-		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Runtime.Net", "Krkal.Runtime.Net\Krkal.Runtime.Net.vcxproj", "{ED263187-A564-4CAC-8145-FF14517D73FF}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -110,19 +100,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.Sample", "Krkal.Sampl
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Sample.Services", "Krkal.Sample.Services\Krkal.Sample.Services.vcproj", "{F26D98AA-277B-4356-8CAC-2F9BD7E4EA92}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6094BA14-FD72-4458-88F3-1EB9426280A5} = {6094BA14-FD72-4458-88F3-1EB9426280A5}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.Sample.Services", "Krkal.Sample.Services\Krkal.Sample.Services.vcxproj", "{F26D98AA-277B-4356-8CAC-2F9BD7E4EA92}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils.ErrorGenerator", "Utils.ErrorGenerator\Utils.ErrorGenerator.vcproj", "{057E8045-5944-47C6-9FD8-0ECC915AE87C}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils.ErrorGenerator", "Utils.ErrorGenerator\Utils.ErrorGenerator.vcxproj", "{057E8045-5944-47C6-9FD8-0ECC915AE87C}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -138,11 +122,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.Main", "Krkal.Main\Kr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.RunIde", "Krkal.RunIde\Krkal.RunIde.csproj", "{9BFEA5DB-E527-4A30-B869-F10FC3405211}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.NativeConsoleGames", "Krkal.NativeConsoleGames\Krkal.NativeConsoleGames.vcproj", "{3FA0172E-1B36-46C1-9324-DAC42158C98F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6094BA14-FD72-4458-88F3-1EB9426280A5} = {6094BA14-FD72-4458-88F3-1EB9426280A5}
-		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
-	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.NativeConsoleGames", "Krkal.NativeConsoleGames\Krkal.NativeConsoleGames.vcxproj", "{3FA0172E-1B36-46C1-9324-DAC42158C98F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

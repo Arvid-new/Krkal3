@@ -1,4 +1,5 @@
-﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -12,12 +13,13 @@
     <ApplicationIcon>krkal.ico</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <StartupObject>
     </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -32,6 +34,8 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,6 +46,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -51,6 +56,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -120,7 +126,7 @@
       <Project>{A2D0808E-BC2E-4701-92FA-835E1C251B97}</Project>
       <Name>Krkal.Compiler</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcproj">
+    <ProjectReference Include="..\Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcxproj">
       <Project>{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}</Project>
       <Name>Krkal.FileSystem.Net</Name>
     </ProjectReference>
@@ -132,11 +138,11 @@
       <Project>{9BFEA5DB-E527-4A30-B869-F10FC3405211}</Project>
       <Name>Krkal.RunIde</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Krkal.Runtime.Net\Krkal.Runtime.Net.vcproj">
+    <ProjectReference Include="..\Krkal.Runtime.Net\Krkal.Runtime.Net.vcxproj">
       <Project>{ED263187-A564-4CAC-8145-FF14517D73FF}</Project>
       <Name>Krkal.Runtime.Net</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Krkal.Sample.Services\Krkal.Sample.Services.vcproj">
+    <ProjectReference Include="..\Krkal.Sample.Services\Krkal.Sample.Services.vcxproj">
       <Project>{F26D98AA-277B-4356-8CAC-2F9BD7E4EA92}</Project>
       <Name>Krkal.Sample.Services</Name>
     </ProjectReference>
@@ -162,7 +168,7 @@
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
-      <ProductName>.NET Framework Client Profile</ProductName>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

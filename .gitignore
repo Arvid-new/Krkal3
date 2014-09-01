@@ -1,0 +1,29 @@
+bin/Bin/*
+!bin/Bin/KRKALfs.cfg
+!bin/Bin/KrkalC.syn
+!bin/Bin/zlib.dll
+bin/Compiler/Bin/*.dll
+bin/Compiler/Code/*.code
+bin/Compiler/CppSource/AntDeathMatch_3798_03CD_176A_36B2/
+bin/Compiler/CppSource/Attributes_4A01_D425_153D_5D69/
+bin/Compiler/CppSource/Include/*
+bin/Compiler/CppSource/Life_931E_DDA6_45D0_BF2A/
+bin/Compiler/CppSource/Mini Krkal - Empty Map_9A90_3067_2BD6_48A8/
+bin/Compiler/CppSource/Mini Krkal_FA9B_397F_FDFB_B96B/
+bin/Compiler/CppSource/Root1_4B7D_9CCA_1E1A_EDCB/
+bin/Compiler/CppSource/RootAttributes_A048_21D6_D7B7_6F4D/
+bin/Compiler/CppSource/RootKrkal_4D2A_E2A4_86A1_0687/
+bin/Compiler/CppSource/System.Root.DataWritter_65AE_8343_13B9_A939/
+bin/Compiler/Data/*.data
+bin/Install/RootCache.data
+bin/Profiles/AllUsers/Configuration/MainConfiguration.data
+bin/Profiles/MD.user/
+bin/Translations/**/TranslationsCache
+src/**/obj/
+src/KRKAL 3.0.ncb
+src/**/Debug/
+src/**/*.user
+src/ipch/
+src/_UpgradeReport_Files/
+src/KRKAL 3.0.sdf
+src/**/Release/

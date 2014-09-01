@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{9341f645-83d1-4b99-9aa0-caa955d893e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\fs.api.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\MersenneTwister.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared\types.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CKerMain.h" />
+    <ClInclude Include="Include\CKernelParameters.h" />
+    <ClInclude Include="Include\DataObject.h" />
+    <ClInclude Include="Include\GarbageCollector.h" />
+    <ClInclude Include="Include\interpret.h" />
+    <ClInclude Include="Include\KerConstants.h" />
+    <ClInclude Include="Include\KerContext.h" />
+    <ClInclude Include="Include\KerErrorNumbers.h" />
+    <ClInclude Include="Include\KerErrors.h" />
+    <ClInclude Include="Include\KernelArray.h" />
+    <ClInclude Include="Include\KerServices.h" />
+    <ClInclude Include="KerServicesBackend.h" />
+    <ClInclude Include="Include\Krkal.Runtime.h" />
+    <ClInclude Include="Include\LanguageType.h" />
+    <ClInclude Include="Loading.h" />
+    <ClInclude Include="Include\NamePtr.h" />
+    <ClInclude Include="Include\names.h" />
+    <ClInclude Include="Include\objects.h" />
+    <ClInclude Include="Include\OPointer.h" />
+    <ClInclude Include="Include\RootNames.h" />
+    <ClInclude Include="Saving.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared\types.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CKerMain.cpp" />
+    <ClCompile Include="CKernelParameters.cpp" />
+    <ClCompile Include="DataObject.cpp" />
+    <ClCompile Include="GarbageCollector.cpp" />
+    <ClCompile Include="interpret.cpp" />
+    <ClCompile Include="KerConstants.cpp" />
+    <ClCompile Include="KerContext.cpp" />
+    <ClCompile Include="KerErrors.cpp" />
+    <ClCompile Include="kernel.cpp" />
+    <ClCompile Include="KerServices.cpp" />
+    <ClCompile Include="Krkal.Runtime.cpp" />
+    <ClCompile Include="Loading.cpp" />
+    <ClCompile Include="names.cpp" />
+    <ClCompile Include="objects.cpp" />
+    <ClCompile Include="OPointer.cpp" />
+    <ClCompile Include="RootNames.cpp" />
+    <ClCompile Include="Saving.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\kernel.h.deprecated" />
+  </ItemGroup>
+</Project>

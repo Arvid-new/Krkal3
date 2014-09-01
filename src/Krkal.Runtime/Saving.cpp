@@ -297,7 +297,7 @@ void CKerSaver::SaveAttributes(CFSRegister *reg, CDataObjectBase *data, const ch
 
 CKerSaver::RegOrdT CKerSaver::GetOrSaveName(CKerName *name) {
 	if (!name)
-		return RegOrdT(0,0);
+		return RegOrdT((CFSRegister*)0,0);
 	NamesMapT::iterator i = _namesMap.find(name);
 	if (i != _namesMap.end())
 		return i->second;
@@ -439,7 +439,7 @@ void CKerSaver::SaveArray(CKerArr<T>* arr, CFSRegKey *key, CLT &fieldLT, eOPoint
 
 CKerSaver::RegOrdT CKerSaver::GetObject(CKerObject *obj) {
 	if (!obj)
-		return RegOrdT(0,0);
+		return RegOrdT((CFSRegister*)0,0);
 	ObjectsMapT::iterator i = _objectsMap.find(obj);
 	if (i != _objectsMap.end())
 		return i->second;

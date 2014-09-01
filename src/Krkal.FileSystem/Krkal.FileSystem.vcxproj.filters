@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{3e778745-ec14-448e-85dd-db975966cdef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared\types.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="archive.cpp" />
+    <ClCompile Include="crc.cpp" />
+    <ClCompile Include="fs.cpp" />
+    <ClCompile Include="HashTable.cpp" />
+    <ClCompile Include="Krkal.FileSystem.cpp" />
+    <ClCompile Include="NameSearch.cpp" />
+    <ClCompile Include="register.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="VersionFeatures.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared\types.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="archive.h" />
+    <ClInclude Include="..\Shared\fs.api.h" />
+    <ClInclude Include="fs.h" />
+    <ClInclude Include="FS_Macros.h" />
+    <ClInclude Include="..\Shared\HashTable.h" />
+    <ClInclude Include="NameSearch.h" />
+    <ClInclude Include="PathTree.h" />
+    <ClInclude Include="register.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="VersionFeatures.h" />
+  </ItemGroup>
+</Project>

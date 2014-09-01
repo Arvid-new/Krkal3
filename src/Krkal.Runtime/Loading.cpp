@@ -173,7 +173,7 @@ void CScriptLoader::PrepareArrays() {
 	CFSRegister *arrReg = TryGetSubRegister(_code, "Arrays");
 	if (arrReg) {
 		for (CFSRegKey *key = arrReg->GetFirstKey(); key; key = key->GetNextKey()) {
-			_arrays.push_back(pair<CFSRegKey*, void*>(key, 0));
+			_arrays.push_back(pair<CFSRegKey*, void*>(key, (void*)0));
 		}
 		CFSRegKey *types = _code->FindKey("Arrays LTs");
 		if (!types || types->CFSGetKeyType() != FSRTint || types->top != arrReg->GetNumberOfKeys()*2)
@@ -191,7 +191,7 @@ void CScriptLoader::CreateEmptyObjects() {
 			CKerName *className = GetName(atoi(key->GetName()));
 			if (!className || className->Type != eKerNTclass) {
 				KerMain->Errors->LogError(eKRTEobjectLoad);
-				_objects.push_back(RegObjT(key->GetSubRegister(), 0));
+				_objects.push_back(RegObjT(key->GetSubRegister(), (CKerObject*)0));
 			} else {
 			
 				OPointer obj;
