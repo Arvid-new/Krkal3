@@ -1,0 +1,64 @@
+﻿//
+//		Basic system functions like Math or work with console
+//
+
+
+#head {
+	version FF4C_9AC4_7717_92B5;
+	component;
+	system;
+	include "System.Root_C8BE_EA99_2682_83E2.kc" D4AF_B264_72B6_1BB5;
+}
+#attributes []
+#names {
+}
+
+
+
+class Error {
+	// Prints message in the console window
+	static extern void PrintDebugMessage(string text, int param) {
+		KString wstr = ctx.prm<KString>(0);
+		char *a = UnicodeToAnsi(wstr->c_str());
+		KerMain->KerServices->LogDebugInfo(5,1,ctx.prm<int>(1),a);
+		KernelFreeArray(a);
+	}
+}
+
+
+
+class Math {
+	
+	// returns integer random number from 0 to range, both limits included.
+	static extern direct int Random(int range) {
+		return KerMain->KerServices->Random(_KSL_range);
+	}
+}
+
+
+
+
+void name AllGames, AllLanguages, AllEngines, AllNewFileTemplates;
+
+
+public VariableFlags Attribute.VarFlag;
+public ClassFlags Attribute.ClassFlag;
+
+
+flags enum VariableFlags {
+	None = 0,
+	DontSaveToLevel = 1,
+	DontSaveToGame = 2,
+	DontSaveToDataObject = 4,
+	Editable = 8,
+}
+
+
+flags enum ClassFlags {
+	None = 0,
+	Abstract = 1,
+	InMap = 2,
+	OutMap = 4,
+	DataObject = 8,
+	ClassGroup = 16,
+}

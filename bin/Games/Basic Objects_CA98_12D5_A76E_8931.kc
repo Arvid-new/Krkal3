@@ -1,0 +1,267 @@
+﻿#head {
+	version 30FD_3EA2_CD8E_3A07;
+	component;
+}
+#attributes []
+#names {
+}
+
+
+///
+///		BASIC KRKAL OBJECTS
+///
+
+
+
+class name Floor;
+depend @Placeable << Floor;
+
+class Floor {
+	string @Placeable.Image = "kamenyA.png";
+}
+
+
+class name Wall;
+depend {@Placeable, BlocksMove} << Wall;
+
+class Wall {
+	string @Placeable.Image = "stena0000.png";
+	int @Placeable.Z = 10;
+}
+
+
+class name DestroyableWall;
+depend {@Placeable, BlocksMove, AffectedByExplosion} << DestroyableWall;
+
+class DestroyableWall {
+	string @Placeable.Image = "stenaroz.png";
+	int @Placeable.Z = 10;
+}
+
+
+
+
+/////////////////////////////////////
+
+
+
+class name LeftHandMonster;
+depend {@Placeable, BlocksMove, LeftHandMover} << LeftHandMonster;
+
+class LeftHandMonster {
+	string @Placeable.Image = "potvoraznackova2.png";
+	int @Placeable.Z = 10;
+}
+
+
+class name ChaoticMonster;
+depend {@Placeable, BlocksMove, ChaoticMover} << ChaoticMonster;
+
+class ChaoticMonster {
+	string @Placeable.Image = "fotobunka0.png";
+	int @Placeable.Z = 10;
+	
+	void @MapPlaced() {
+		StartMove() timed @Math.Random(50)*100;
+	}
+	
+	void StartMove() {
+		$Moves.CalculateMove() message;
+		StartMove() timed @Math.Random(50)*100;
+	}
+}
+
+
+
+class name UpMovingMonster, StraightMonster;
+depend {@Placeable, BlocksMove, StraightMover} << StraightMonster << UpMovingMonster;
+
+class UpMovingMonster {
+	string @Placeable.Image = "hemr8.png";
+	int @Placeable.Z = 10;
+	int $StraightMoverBase.dy = -1;
+}
+
+
+class name RightMovingMonster;
+depend StraightMonster << RightMovingMonster;
+
+class RightMovingMonster {
+	string @Placeable.Image = "hemr6.png";
+	int @Placeable.Z = 10;
+	int $StraightMoverBase.dx = 1;
+}
+
+
+
+
+
+/////////////////////////////////////////////////////////
+
+
+
+class name Ice, MovesOnIce;
+depend @Placeable << Ice;
+depend StraightMoverBase << MovesOnIce << {ChaoticMonster, LeftHandMonster, StraightMonster};
+void name IcePriority;
+depend IcePriority << WantMovePriority;
+
+class Ice {
+	string @Placeable.Image = "led.png";
+	int @Placeable.Z = 2;
+	
+}
+
+
+class MovesOnIce {
+	void $VoteForMove() {
+		if (!@Map.GetCount(x=@Placeable.X, y=@Placeable.Y, type=$Ice))
+			return;
+		if ($StraightMoverBase.dx == 0 && $StraightMoverBase.dy == 0)
+			return;
+			
+		int x = @Placeable.X + $StraightMoverBase.dx;
+		int y = @Placeable.Y + $StraightMoverBase.dy;
+		
+		$Moves.AddVote(x=x, y=y, priority=$IcePriority);
+	}
+	
+}
+
+
+
+
+//////////////////////////////////////////////////////////////
+
+
+class name Sign, SignLeft, SignRight, SignUp, SignDown, MovesBySign;
+depend {@Placeable, StartsMove} << Sign << {SignLeft, SignRight, SignUp, SignDown};
+depend Moves << MovesBySign << {ChaoticMonster, StraightMonster};
+
+class Sign {
+	int dx,dy;
+	int @Placeable.Z = 6;	
+}
+
+class SignLeft {
+	int $Sign.dx = -1;
+	string @Placeable.Image = "prikazanysmer4.png";
+}
+class SignRight {
+	int $Sign.dx = 1;
+	string @Placeable.Image = "prikazanysmer6.png";
+}
+class SignUp {
+	int $Sign.dy = -1;
+	string @Placeable.Image = "prikazanysmer8.png";
+}
+class SignDown {
+	int $Sign.dy = 1;
+	string @Placeable.Image = "prikazanysmer2.png";
+}
+
+void name SignPriority;
+depend IcePriority << SignPriority << WantMovePriority;
+
+
+class MovesBySign {
+	void $VoteForMove() {
+		if (!@Map.GetCount(x=@Placeable.X, y=@Placeable.Y, type=$Sign))
+			return;
+		Sign s = @Map.Get(x=@Placeable.X, y=@Placeable.Y, type=$Sign)[0];
+			
+		int x = @Placeable.X + s->dx;
+		int y = @Placeable.Y + s->dy;
+		
+		$Moves.AddVote(x=x, y=y, priority=$SignPriority);
+	}
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////
+
+
+
+class name Hole, FallsInHole;
+depend @Placeable << {Hole, FallsInHole};
+depend FallsInHole << {ChaoticMonster, LeftHandMonster, StraightMonster, Sign};
+void FallInHole();
+depend @Destructor << FallInHole;
+
+class Hole {
+	string @Placeable.Image = "dira.png";
+	int @Placeable.Z = 2;
+	
+	void @MapPlaced() {
+		CheckObjects();
+	}
+	void @MapMoved() {
+		CheckObjects();
+	}
+
+	void CheckObjects() {
+		@Placeable[] objs = @Map.Get(x=@Placeable.X, y=@Placeable.Y, type=$FallsInHole);
+		foreach (@Placeable obj in objs) {
+			obj->$FallInHole() callend obj;
+		}
+	}
+
+}
+
+
+class FallsInHole {
+	void @MapPlaced() {
+		CheckHole();
+	}
+	void @MapMoved() {
+		CheckHole();
+	}
+
+	void CheckHole() {
+		if (@Map.GetCount(x=@Placeable.X, y=@Placeable.Y, type=$Hole)) {
+			$FallInHole() callend this;
+		}
+	}
+}
+
+
+
+class name MovingHole;
+depend {Hole, BlocksMove, LeftHandMover} << MovingHole;
+class MovingHole {
+	string @Placeable.Image = "dira.png";
+	int @Placeable.Z = 2;
+}
+
+
+
+
+
+///////////////////////////////////////////////////////////
+
+
+
+class name ChaoticSpawner;
+depend @Placeable << ChaoticSpawner;
+
+class ChaoticSpawner {
+	int @Placeable.Z = 8;
+	string @Placeable.Image = "teleport1.png";
+
+	static name[] Classes = {$UpMovingMonster, $RightMovingMonster, $MovingMine, $LeftHandMonster, $ChaoticMonster};
+	
+	void @MapPlaced() {
+		Spawn() timed @Math.Random(2000);
+	}
+	
+	void Spawn() {
+		if (@Placeable.IsPlaced()) {
+			@Placeable obj = new (Classes[@Math.Random(Classes->GetCount()-1)]) ();
+			@Map.PlaceAt(obj, @Placeable.X, @Placeable.Y);
+			Spawn() timed @Math.Random(2000);
+		}
+	}
+}

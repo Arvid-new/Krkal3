@@ -1,0 +1,42 @@
+﻿#head {
+	system;
+	version 42B1_5E31_9DA8_ED90;
+	include "System.Root_C8BE_EA99_2682_83E2.kc" D4AF_B264_72B6_1BB5;
+	generatesdata;
+}
+#attributes []
+#names {
+}
+
+
+
+new Attribute Attribute.UserName {
+	Location = @AttributeLocation.OnNames;
+}
+
+
+new Attribute Attribute.Comment {
+	Location = @AttributeLocation.OnNames;
+}
+
+
+new Attribute Attribute.File {
+	Location = @AttributeLocation.OnNames;
+}
+
+
+new Attribute Attribute.Engine {
+	Location = @AttributeLocation.Global;
+}
+
+
+new Attribute Attribute.StartConfiguration {
+	Location = @AttributeLocation.OnNames;
+}
+
+
+class Saver {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.DataFiles), @SavingFlags.SaveAllDataObjects | @SavingFlags.SaveDataFile, null, null, null);
+	}
+}

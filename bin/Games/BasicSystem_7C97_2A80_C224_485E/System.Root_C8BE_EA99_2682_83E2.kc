@@ -1,0 +1,194 @@
+﻿//
+//		SYSTEM functionality tahat is needed to create root files and other data files
+//
+
+
+#head {
+	version D4AF_B264_72B6_1BB5;
+	component;
+	system;
+}
+#attributes []
+#names {
+}
+
+
+
+
+
+// Typy jmen
+enum NameType {
+	Variable,
+	StaticVariable,
+	SafeMethod,
+	DirectMethod,
+	StaticSafeMethod,
+	StaticDirectMethod,
+
+	Void,
+	Class,
+	Param,
+	Group,
+	Control,
+	Enum,
+
+	Game,
+	Language,
+	Campaign,
+	Level,
+	Solution,
+	RunSource,
+	CompileSource,
+	Engine
+
+}
+
+
+
+flags enum SavingFlags {
+	None = 0,
+	SaveAllNames = 1,  // names are saved with their attributes
+	SaveNewNames = 2,
+	SaveAllDependencies = 4,
+	SaveNewDependencies = 8,
+	SaveAllDataObjects = 16,
+	SaveNewDataObjects = 32,
+	SaveDataFile = 64, // if set saving DataFile. Otherwise saving level or game.
+	SaveGlobalAttributes = 128,
+	
+	CreateData = SaveNewNames | SaveNewDependencies | SaveNewDataObjects | SaveDataFile,
+	CreateRoot = SaveAllNames | SaveAllDependencies | SaveAllDataObjects | SaveDataFile,
+}
+
+
+
+
+
+class DataObjects {
+	static extern direct int AttachName(object o, name n) {
+		return KerMain->KerServices->CreateDataObject(_KSL_o, _KSL_n); 
+	}
+	
+	static extern direct name CreateName(NameType type, name localizeTo, string identifier, string version) {
+		return KerMain->KerServices->CreateName((eKerNameType)_KSL_type, _KSL_localizeTo, _KSL_identifier->c_str(), _KSL_version->c_str());
+	}
+	
+	static extern direct void CreateDependency(name parent, name child) {
+		KerMain->KerServices->CreateDependency(_KSL_parent, _KSL_child);
+	}
+	
+	static extern direct void ForgetAllNewEntities() {
+		KerMain->KerServices->ForgetAllNewEntities();
+	}
+	
+	static extern direct int Save(string file, SavingFlags flags, name[] names, name[] dependencies, name[] dataObjects) {
+		char *file = UnicodeToAnsi(_KSL_file->c_str());
+		int ret = KerMain->Save(file, (eKerSavingFlags)_KSL_flags, _KSL_names, _KSL_dependencies, _KSL_dataObjects);
+		KernelFreeArray(file);
+		return ret;
+	}
+	
+	static extern direct string GetDataFileFromCodeFile(LacalizeDataFileTo localizeTo) {
+		return KerMain->KerServices->GetDataFileFromCodeFile((eKerLacalizeDataFileTo)_KSL_localizeTo);
+	}
+	
+	static extern direct object GetDataObject(name n) {
+		return KerMain->GetDataObjectInstance(_KSL_n);
+	}
+}
+
+
+enum LacalizeDataFileTo {
+	None,
+	DataFiles,
+	RootFiles,
+	Profile,
+}
+
+
+flags enum AttributeLocation {
+	OnNames,
+	OnFields,
+	Global,
+	Inherit = 16,
+}
+
+class Attribute {
+	public AttributeLocation Location;
+	public NameType[] Filter;	
+}
+
+
+class Enum {
+	public name Class;
+	public name Name;
+	public int Type;
+}
+
+
+
+public const1 string Attribute.UserName;
+public const1 string Attribute.Comment;
+public const1 string Attribute.File;
+public const1 string Attribute.Engine;
+public name Attribute.StartConfiguration;
+
+
+
+
+
+class GameInformation {
+	public string WebPage;
+	public string Author;
+	public name Icon;
+	public name StartLevel;
+}
+
+
+
+class EngineInformation {
+	public string Assembly;
+	public name[] StartModeNames;
+	public int[] StartModeValues;
+}
+
+
+class NameTypesInformation {
+	public name[] Names;
+	public int[] Values;	
+}
+
+
+class NewFileTemplate {
+	public string Extension;
+	public string Content;
+}
+
+
+enum KernelRunMode {
+	Normal,	// Hra
+	Editor,	// Editor
+	CreateData,
+	DataEdit,
+	DataOnly,
+}
+
+enum KernelDebugMode {
+	Release,    // Loguji se jen FatalErrory a PanicErrory
+	Debug		// Loguje se vse, FatalErroru muze byt jen deset
+}
+
+enum DefaultEngineRunModes {
+	None,
+	AutoDetect,
+	CreateData,
+	Run,
+}
+
+
+class StartConfiguration {
+	public string Source;
+	public int EngineRunMode = @DefaultEngineRunModes.AutoDetect;
+	public KernelRunMode KernelRunMode = @KernelRunMode.Normal;
+	public KernelDebugMode DebugMode = @KernelDebugMode.Debug;
+}

@@ -1,0 +1,145 @@
+#head {
+	version 1000_0000_0000_0000;
+	include "a1_0941_9B38_94A1_944D.kcp" a000_0000_0000_0000;
+	include "b2_EF3C_E4E7_D1CB_73AF.kc" b000_0000_0000_0000; // lets use modified version (b1 causes error)
+	include "bojka_59F1_C705_BC2C_9045.kc" 7837_5327_0000_3467;
+	include "bubak_1BDD_34E1_B225_07F8.kc" 3C14_CC3B_D56B_AE94;
+}
+#attributes [Author = "M.D.]"]
+#names {
+	$DFAL$5650_0000_0000_0000.snek$5650_0000_0000_0000;
+	$Smery$5650_0000_0000_0000;
+	$Krkal$1000_0000_0000_0000;
+	
+}
+
+
+class name Muflon;
+
+depend Krkal << Muflon;
+
+class Muflon {
+	group Info {
+		int a;
+		int b;
+	}
+
+	control butonek;
+	
+	void @Constructor(int a, int b) {
+		this->a = a;
+		this->b = b;
+		Krkal Krkal = new Krkal();
+		string s;
+		s = "ahoj" + "bubaku";
+	}
+
+	void @Constructor() {}
+	
+	direct static int HustePrima(int k, ret double ble) {
+		Krkal Krkal = new Krkal(a = k);
+		a1 obj = Krkal;
+		Krkal->dd = obj->xxx;
+		ble = Krkal->texticek[2];
+		return Krkal->d + Krkal->pole[Krkal->dd  - 1] + 22;
+	}
+}
+
+
+
+
+
+name l;
+
+class name iioioio.ygyu;
+
+void name Sever, Jih, Zapad, Vychod;
+void name Smery;
+
+depend Muflon << Smery << {Sever, Jih, Zapad, Vychod};
+
+static retadd int MojeMetoda();
+param name h, x;
+class name Krkal [InMap], sddjk, param ;
+
+
+
+class Krkal [UserName = "KingOfJungle"] {
+	double d = 5.5, dd [bla, ufo] = 4;
+	static Krkal Krkal = new Krkal();
+	int[] pole;
+	void Metoda(int p1, ret int p2) {
+		p2 = p1;
+		p2 = p1* 4 + p2;
+	}
+	string texticek = "ahoj";
+	static retadd int $MojeMetoda() {}
+	
+	string ahoj;
+	
+	int[] VratPole(int velikost, int hodnota) {
+		int[] p;
+		for (int f=0; f<velikost; f++) {
+			p[f] = hodnota;
+		}
+		return p;
+	}
+	
+	direct double RecursiveFactorial(double n) {
+		if (n <= 1) {
+			return n;
+		} else {
+			return RecursiveFactorial(n-1)*n;
+		}
+	}
+	
+}
+
+
+
+class name a1,a2,a3,a4,a5,b1,b2,b3,b4,b5,c1,c2,c3,c4,c5;
+depend {a1,a2,a3,a4,a5} << {b1,b2,b3,b4,b5} << {c1,c2,c3,c4,c5};
+
+class a1 {
+	int xxx;
+}
+class a4 {
+	int xxx; 
+}
+
+
+class name Dedek1, Dedek2, MladsiDedek, Otec;
+
+class Dedek1 {
+	string $ToString() {}	
+	void $Metoda(int a) {}
+	int a;
+}
+
+class Dedek2 {
+	string $ToString() {}
+	void $Metoda(int a) {}
+	void $Metoda(double b) {}
+}
+
+depend Otec >> {Dedek1, Dedek2};
+
+class MladsiDedek {
+	override string $ToString() {}
+}
+
+depend Otec >> MladsiDedek >> Dedek1;
+
+class Otec {
+	override string $ToString() {}
+}
+
+class name Syn1, Syn2, Syn3, Vnouce;
+depend Vnouce >> {Syn1, Syn2, Syn3} >> Otec;
+
+class Syn1 {
+	int a;
+}
+
+
+

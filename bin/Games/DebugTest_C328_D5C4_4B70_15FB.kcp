@@ -1,0 +1,66 @@
+﻿#head {
+	version F5BF_21B4_F74B_E490;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	include "Classes_BF89_9CCC_0137_BF96.kc" A3F1_32CF_6DCC_F0D7;
+}
+#attributes []
+#names {
+}
+
+
+// Demonstartes Hello World, class factory and inheritance
+
+
+
+class name Program;
+
+class Program {
+
+	static void @Main() {
+		@Error.PrintDebugMessage(text = "Hello" + " World!");
+		WriteLine(text = "kernel is running!") timed 3000;
+		
+		name[] types = {$Left, $Base, @Error, $Derived, $Right, $ClassGame};
+		new ClassGame(ClassGame.types = types);
+	}
+	
+	static void WriteLine(string text) {
+		@Error.PrintDebugMessage(text = text);
+		WriteLine(text = text) timed 3000;
+	}
+
+}
+
+
+
+
+class name ClassGame;
+
+class ClassGame {
+	name[] classTypes;
+	
+	void @Constructor(name[] ClassGame.types) {
+		classTypes = types;
+		Run() timed ReturnTime(2000);
+	}
+	
+	void Run() {
+		if (classTypes->GetCount() > 0) {
+			name c = classTypes->RemoveFirst();
+			object o = new (c) (Left.Value = 5, Right.Value = 1, Base.Value = 100);
+			
+			string s = o->$WhoAmI();
+			@Error.PrintDebugMessage(text = s);
+			
+			o->$WriteVariables() timed 500;
+			o->$IncrementMyVariables() timed 1000;
+			o->$WriteVariables() timed 1001;
+			
+			Run() timed 2222;
+		}
+	}
+	
+	direct int ReturnTime(int time) {
+		return time + 222;
+	}
+}

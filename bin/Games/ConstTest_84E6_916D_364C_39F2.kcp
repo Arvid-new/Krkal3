@@ -1,0 +1,117 @@
+﻿#head {
+	version ADB3_4718_E894_CC42;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+}
+#attributes []
+#names {
+}
+
+
+
+class Test {
+	constv double d = 4;
+	constv const1 string str = "ahoj" + " svete";
+	constv const1 const2 name[][] pole = {null, {@Everything, @Nothing}, {null, null}};
+	constv @NameType type = @NameType.Void;
+	//constv int tt = 5 / 0;
+	constv double velky = -12;
+	constv char ch = ~-'c' + velky;
+	constv int test = str || null;
+	constv mnozka m = $ty;
+	constv int kk = true;
+}
+
+name enum mnozka;
+void name ja, ty, on;
+depend mnozka << {ja, ty, on};
+
+
+class Trida {
+	int a = 2;
+	constv int ca = 3;
+	direct constm int GetA() {
+		//a=5;
+		//SetA(5);
+		return a;
+	}
+	direct void SetA(int A) {
+		a=A;
+		//ca = ca;
+	}
+	
+	string jmeno2 = "bla";
+	const1 string jmeno = "Ahoj";
+	string GetJmeno() {
+		//return jmeno;
+		jmeno->GetCount();
+		//jmeno->SetCount(8);
+		//jmeno2 = jmeno;
+		jmeno2->AddRangeLast(jmeno);
+		jmeno2->AddRangeLast("bla");
+		jmeno = jmeno2;
+		int b = jmeno[2];
+		return "bla" + jmeno;
+	}
+	const1 string GetJmeno2() {	
+		return jmeno;
+	}
+	
+	
+	consto Trida[] pole;
+	const1 Trida[] pole2;
+	Trida[] pole3;
+	consto Trida[][][] pole4;
+	consto const1 const2 const3 Trida[][][] pole5;
+	void Test() {
+		//pole[2]->a = 2;
+		pole[2]->GetA();
+		//Trida t = pole[2];
+		consto Trida t2 = pole[2];
+		//pole3->AddLast(t2);
+		pole->AddLast(t2);
+		pole4->Compare(pole5);
+		pole2->Compare(pole);
+		pole->Compare(pole2);
+		consto const1 Trida[] xpole = pole2;
+		pole->AddRangeLast(pole4[2][3]);
+		pole->AddRangeLast(pole5[3][3]);
+		pole->AddRangeLast(pole3);
+		//pole4->AddRangeLast(pole5); // CONST LEAK
+		xpole->Compare(pole);
+		//Trida t = t2;
+		constv int a = t2->a;
+		//a = 4;
+		pole2[1]->a = 8;
+		//pole = pole2;
+		//pole2 = pole;
+		pole[1] = t2;
+		pole[1] = this;
+		//pole2[2] = t2;
+		//pole3[3] = t2;
+		//pole2[3] = null;
+		pole3[3] = this;
+		pole4[3][3][3] = this;
+		pole4[3][3] = pole;
+		//pole4[3][3] = pole2;
+		pole4[3][3] = pole3;
+		pole5 = pole4;
+		//pole4 = pole5;
+		//pole2 = pole5[3][3]
+		pole = pole4[3][3];
+		
+		//foreach (Trida[] t in pole4) {}
+		foreach (consto Trida[] t in pole4) {
+			//t[1]->SetA();
+			t[1]->GetA();
+		}
+		foreach (consto Trida t in pole4) {}
+		foreach (const1 consto Trida[] t in pole5) {}
+		
+		//pole2 += pole;
+//		pole += pole2;
+		//Trida[][] tt = pole4[1] + pole5[2];
+		//const1 const2 Trida[][] tt2 = pole4[1] + pole5[2];
+		//consto Trida[][] tt3 = pole4[1] + pole5[2];
+		consto const1 const2 Trida[][] tt4 = pole4[1] + pole5[2];
+	}
+}

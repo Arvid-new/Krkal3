@@ -1,0 +1,32 @@
+﻿#head {
+	version E958_ED87_AECB_0822;
+	system;
+	generatesdata;
+	include "System.Root_C8BE_EA99_2682_83E2.kc" D4AF_B264_72B6_1BB5;
+}
+#attributes []
+#names {
+}
+
+
+
+class Saver {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.RootFiles), @SavingFlags.CreateRoot, null, null, null);
+	}	
+}
+
+
+
+class RootNameTypesInformation {} // as the name types are not ready, I cannot declare void name. So declaring class name instead.
+depend AllNameTypes << RootNameTypesInformation;
+
+
+new NameTypesInformation RootNameTypesInformation {
+	Names = {&@NameType.Void, &@NameType.Class, &@NameType.Param, &@NameType.Group, &@NameType.Control, &@NameType.Enum, 
+	&@NameType.Game, &@NameType.Language, &@NameType.Campaign, &@NameType.Level, &@NameType.Solution, &@NameType.RunSource, &@NameType.CompileSource, &@NameType.Engine};
+	Values = {@NameType.Void, @NameType.Class, @NameType.Param, @NameType.Group, @NameType.Control, @NameType.Enum, 
+	@NameType.Game, @NameType.Language, @NameType.Campaign, @NameType.Level, @NameType.Solution, @NameType.RunSource, @NameType.CompileSource, @NameType.Engine};
+}
+
+

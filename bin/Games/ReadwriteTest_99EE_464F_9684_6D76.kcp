@@ -1,0 +1,33 @@
+﻿#head {
+	version AFB0_F3DC_C6A0_577B;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+}
+#attributes []
+#names {
+}
+
+class name Base, Left, Right, Derived;
+depend Base << {Left, Right} << Derived;
+
+class Base {
+	int $a;
+}
+
+class Left {
+	void Write(int a) { $a = a;}
+}
+
+class Right {
+	int Read() { return $a;}
+}
+
+class Derived {
+	static void @Main() {
+		Derived d = new Derived();
+		d->$Left.Write(a = 5);
+		int a = d->$Right.Read();
+
+		@Error.PrintDebugMessage(text = (a == d->$a && a == 5)->ToString());
+	}
+}
+

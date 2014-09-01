@@ -1,0 +1,23 @@
+﻿#head {
+	version EAAE_7CE5_E21A_FA8F;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	engine _KSId_KrkalGen_4D2A_E2A4_86A1_0687;
+	attributesdefinition $Attributes$4B7D_9CCA_1E1A_EDCB;
+}
+#attributes []
+#names {
+}
+
+
+
+class Program {
+	static void @Main() {
+		WriteLine(text = "kernel is running!") timed 3000;		
+	}
+	
+	static void WriteLine(string text) {
+		@Error.PrintDebugMessage(text = text);
+		WriteLine(text = text) timed 3000;
+	}
+	
+}

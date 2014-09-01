@@ -1,0 +1,34 @@
+﻿
+//
+//		MINI KRKAL
+//
+//	This sample demonstrates Krkal like objects. 
+//	There are implemented abstract classes with basic Krkal features like moving and explosions.
+//	Multiple inheritance is heavily used to combine several behaviors in objects.
+//
+//	This project contains empty map.
+
+
+
+#head {
+	version FF99_3AC9_4ADC_D45F;
+	include "Basic Objects_CA98_12D5_A76E_8931.kc" 30FD_3EA2_CD8E_3A07;
+	include "Explosives_B66B_9C15_C400_8478.kc" 2477_616C_8C8D_B71E;
+	include "Moving_BE70_09A1_EF92_529B.kc" 43E6_38B1_02FC_8BED;
+	include "SampleSystem_5615_A57B_A943_7EFF.kc" 1D5B_E586_5718_3379;
+	engine _KSId_SampleEngine_4B7D_9CCA_1E1A_EDCB;
+}
+#attributes []
+#names {
+}
+
+
+
+class name Program;
+class Program {
+	static void @Main() {
+		@Map.SetSize(x=18, y=12);
+	}
+
+}
+

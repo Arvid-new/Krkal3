@@ -1,0 +1,89 @@
+
+List of System Functions in current version
+===========================================
+
+
+Array
+void AddFirst(T item)
+Inserts new element at the beginning.
+
+Array
+void AddLast(T item)
+Inserts new element at the end.
+
+Array
+void AddRangeFirst(T[] array)
+Inserts elements from an array at the beginning.
+
+Array
+void AddRangeLast(T[] array)
+Inserts elements from an array at the end.
+
+Array
+void Insert(int index, T item)
+Inserts new element at specified position.
+
+Array
+void InsertRange(int index, T[] array)
+Inserts elements from an array at specified position.
+
+Array
+T RemoveFirst()
+Removes and returns first element.
+
+Array
+T RemoveLast()
+Removes and returns lsat element.
+
+Array
+void SetCount(int value)
+Resizes the array to a new length.
+
+Array
+void Reserve(int capacity)
+Reserves the capacity of the internal buffer. Capacity is the requested size.
+
+Array
+void Clear()
+sets Count to 0.
+
+Array
+int GetCapacity()
+Gets the current size of the internal buffer.
+
+Array
+int GetCount()
+Returns the current size of the array.
+
+Array
+int IsLocked()
+Returns if the array is locked.
+
+Numeric types, Name
+string ToString()
+Converts the variable to its textual representation.
+
+Name
+string ToShortString()
+Converts the name to short string.
+
+Object
+name Type()
+Returns object's type.
+
+Object
+int Lives()
+Returns if the object lives.
+
+Object, Array
+T Clone()
+Creates a deep copy of the object or array.
+
+Object, Array
+int Compare(T other)
+Compares object or array by its members. Returns 0 if they are equal.
+
+Object
+void Kill()
+Kills the object.
+

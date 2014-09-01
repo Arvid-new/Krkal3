@@ -1,0 +1,90 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2D0808E-BC2E-4701-92FA-835E1C251B97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Krkal.Compiler</RootNamespace>
+    <AssemblyName>Krkal.Compiler</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Design#CA1021;-Microsoft.Design#CA1032;-Microsoft.Globalization#CA1303</CodeAnalysisRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes.cs" />
+    <Compile Include="ClassName.cs" />
+    <Compile Include="Collections.cs" />
+    <Compile Include="Command.cs" />
+    <Compile Include="Compilation.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="ConstantValue.cs" />
+    <Compile Include="CustomSyntax.cs" />
+    <Compile Include="Dag.cs" />
+    <Compile Include="Declarations.cs" />
+    <Compile Include="ErrorHandling.cs" />
+    <Compile Include="Expr.cs" />
+    <Compile Include="Expression.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="Identifier.cs" />
+    <Compile Include="KsidName.cs" />
+    <Compile Include="KsidNames.cs" />
+    <Compile Include="LanguageType.cs" />
+    <Compile Include="Lexical.cs" />
+    <Compile Include="LexicalToken.cs" />
+    <Compile Include="Lines.cs" />
+    <Compile Include="LocalDeclaration.cs" />
+    <Compile Include="MethodAnalysis.cs" />
+    <Compile Include="NameTable.cs" />
+    <Compile Include="Sources.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Statement.cs" />
+    <Compile Include="SyntaxTemplates.cs" />
+    <Compile Include="TextResourceReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcproj">
+      <Project>{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}</Project>
+      <Name>Krkal.FileSystem.Net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

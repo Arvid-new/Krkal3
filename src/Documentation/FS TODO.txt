@@ -1,0 +1,11 @@
+DONE - use invariant file names in functions like checkout and nonchangedfilecollection
+- implement context menu in FileBrowser dialog
+DONE - Add locks to FS.Net.Api
+DONE - reimplement the KrkalPath class. To work with unknown extensions and to be able to hide version from files with multiple extensions
+- Future Idea: Extend the CDirChangesReader to detect also changes of the files content (update from the outside, archive swap)
+- Installer and packages
+- implement some system of text descriptions of IO error, maybe some GetLastError, so user will know what is wrong
+- Future Idea: Inconsistency of copy and move methods: copy allway overwrites, move sometimes. maybe there should be also optional error if copy copies to different dirrectory becouse of version redirection
+- Vyuzivat FS a registry pro vsechny mozny data a konfigurace (hlavne v IDE)
+- Automaticka detekce zda je potreba binarku prekompilovat
+- Predelat archivy tak aby pozice a velikosti byly int64 (FS myslim nepotrebuje pracovat s vetsim nez 2GB souborem, ale archiv vetsi nez 2(4)GB se hodi)

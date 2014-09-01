@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePad", "..\..\..\..\labb\CodePad\CodePad.csproj", "{FD84D510-FDC8-4828-B7E5-A89E961B12E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compona.CoreLib", "..\CoreLib\Compona.CoreLib.csproj", "{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compona.SyntaxDocument", "..\SyntaxDocument\Compona.SyntaxDocument.csproj", "{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compona.SyntaxBox", "Compona.SyntaxBox.csproj", "{19EF75B2-B414-4EB0-9486-160FAF93E62C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+		ConfigName.2 = TEST
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.Debug.ActiveCfg = Debug|.NET
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.Debug.Build.0 = Debug|.NET
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.Release.ActiveCfg = Release|.NET
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.Release.Build.0 = Release|.NET
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.TEST.ActiveCfg = Release|.NET
+		{FD84D510-FDC8-4828-B7E5-A89E961B12E4}.TEST.Build.0 = Release|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Debug.ActiveCfg = Debug|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Debug.Build.0 = Debug|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Release.ActiveCfg = Release|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Release.Build.0 = Release|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.TEST.ActiveCfg = TEST|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.TEST.Build.0 = TEST|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.Debug.ActiveCfg = Debug|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.Debug.Build.0 = Debug|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.Release.ActiveCfg = Release|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.Release.Build.0 = Release|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.TEST.ActiveCfg = Release|.NET
+		{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}.TEST.Build.0 = Release|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.Debug.ActiveCfg = Debug|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.Debug.Build.0 = Debug|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.Release.ActiveCfg = Release|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.Release.Build.0 = Release|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.TEST.ActiveCfg = Release|.NET
+		{19EF75B2-B414-4EB0-9486-160FAF93E62C}.TEST.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,46 @@
+﻿#head {
+	version A20C_7245_CDC5_6248;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	attributesdefinition $Attributes$4B7D_9CCA_1E1A_EDCB;
+}
+#attributes []
+#names {
+}
+
+
+
+class Test [VarFlag = @VariableFlags.Editable] {
+	int a [UserName = "Bubak"; Comment = "ichi" + "michi"; VarFlag = @VariableFlags.DontSaveToLevel];
+	constv const1 string Bub = "Bubak";
+	
+	
+	const1 static string GetText() { return Bub;}
+	
+	static void Print(string text = "ahoj") {
+		@Error.PrintDebugMessage(text = text);
+	}
+	
+	static void @Main() {
+		@Error.PrintDebugMessage(text = GetText() + {'X'});
+		name n = GetText;
+		string a = static->(n)();
+		char f = static->(n)()[1];
+		@Error.PrintDebugMessage(text = a + {'X', f});
+		@Error.PrintDebugMessage(text = Bub);
+		Print();
+	}
+}
+
+
+int Test.a [UserName = Test.Bub];
+
+
+class Fuj [VarFlag = {1,/*-4,*/2,1}[2]] {
+	int a;
+	constv const1 @VariableFlags[] d = {1,/*-1,*/3};
+	void AA(int a [UserName = "shit"]) {}
+}
+
+
+class name FujPotomek;
+depend Fuj << FujPotomek;

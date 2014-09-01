@@ -1,0 +1,108 @@
+﻿//
+//		SYSTEM FUNCTIONS
+//
+
+
+#head {
+	version 1D5B_E586_5718_3379;
+	component;
+	system;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+}
+#attributes []
+#names {
+}
+
+
+
+
+
+
+
+
+// system is calling these methods when object is placed, removed or moved
+void MapPlaced(), MapRemoved(), MapMoved();
+param name MapRemoved.fromX, MapRemoved.fromY;
+class name Placeable, Map;
+
+class Placeable {
+	int X,Y,Z;		// coorinates in the map. Z affects visibility. Objects with greater Z are on top.
+	string Image; 	// bitmap name
+	
+	direct extern int IsPlaced() {
+		return Script->Services->IsPlaced(thisO);
+	}
+
+	direct extern void Place() {
+		Script->Services->PlaceToMap(thisO);
+	}
+
+	direct extern void Remove() {
+		Script->Services->RemoveFromMap(thisO);
+	}
+}
+
+
+
+class Map {
+	
+	static int SX, SY;
+
+	static direct extern void Place(Placeable obj) {
+		Script->Services->PlaceToMap(_KSL_obj);
+	}
+
+	static direct void PlaceAt(Placeable obj, int x, int y) {
+		obj->X = x;
+		obj->Y = y;
+		Place(obj);
+	}
+
+
+	// Object collides when there is an object on same coordinates (Z also needs to match)
+	// When coordinates are out of map there is allways collision.
+	static direct extern int IsCollision(Placeable obj, int x, int y) {
+		return Script->Services->IsCollision(_KSL_obj, _KSL_x, _KSL_y);
+	}
+
+
+	static direct extern void Remove(Placeable obj) {
+		Script->Services->RemoveFromMap(_KSL_obj);
+	}
+
+	// Needs to be called to initialize the Map. Size can be reset.
+	static extern void SetSize(int x, int y) {
+		*_KSG_(SX) = ctx.prm<int>(0); *_KSG_(SY) = ctx.prm<int>(1);
+		Script->Services->SetMapSize(ctx.prm<int>(0), ctx.prm<int>(1));
+	}
+	
+	static direct int IsInMap(int x, int y) {
+		return (x>=0 && y>=0 && x<SX && y<SY);
+	}
+	
+	// Returns all objects of type <= type in the area.
+	// If type is null or not set all objects will be returned.
+	static extern Placeable[] Get(int x, int y, int dx, int dy, name type) {
+		if (!ctx.assigned(2))
+			ctx.prm<int>(2) = 1;
+		if (!ctx.assigned(3))
+			ctx.prm<int>(3) = 1;
+		ctx.ret<ArrPtr<OPointer>>() = Script->Services->GetObjects(ctx.prm<int>(0), ctx.prm<int>(1), ctx.prm<int>(2), ctx.prm<int>(3), ctx.prm<CKerName*>(4));
+	}
+
+	// Returns count of objects of type <= type in the area.
+	// If type is null or not set count of all objects will be returned.
+	static extern int GetCount(int x, int y, int dx, int dy, name type) {
+		if (!ctx.assigned(2))
+			ctx.prm<int>(2) = 1;
+		if (!ctx.assigned(3))
+			ctx.prm<int>(3) = 1;
+		ctx.ret<int>() = Script->Services->GetObjectsCount(ctx.prm<int>(0), ctx.prm<int>(1), ctx.prm<int>(2), ctx.prm<int>(3), ctx.prm<CKerName*>(4));
+	}
+
+}
+
+
+
+
+

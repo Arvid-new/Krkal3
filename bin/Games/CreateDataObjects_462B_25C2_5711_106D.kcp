@@ -1,0 +1,29 @@
+﻿#head {
+	version C45E_C064_4E12_B3ED;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}
+#attributes []
+#names {
+}
+
+
+
+class Program {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.DataFiles), @SavingFlags.CreateData, null, null, null);
+	}
+}
+
+
+
+class TestAuto {
+	int count;
+	string Name;
+}
+
+
+new void name TestAuto TestObject {
+	count = 5;
+	Name = "Blaaaaaab";
+}

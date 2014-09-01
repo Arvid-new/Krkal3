@@ -1,0 +1,17 @@
+﻿_KSID_RunIde__M_StartDialog__M_LanguageLabel EN 2009-10-31 null "Language:";
+_KSID_RunIde__M_StartDialog__M_UserLabel EN 2009-10-31 null "User Profile:";
+_KSID_RunIde__M_StartDialog__M_NewUserLabel EN 2009-10-31 null "New User";
+_KSID_RunIde__M_StartDialog__M_AuthorLabel EN 2009-10-31 null "Author:";
+_KSID_RunIde__M_StartDialog__M_WebPageLabel EN 2009-10-31 null "Web Page:";
+_KSID_RunIde__M_StartDialog__M_StartGameButton EN 2009-10-31 null "Start Game";
+_KSID_RunIde__M_StartDialog__M_RunIdeButton EN 2009-10-31 null "Make Games";
+_KSID_RunIde__M_StartDialog__M_SetupButton EN 2009-10-31 null "Install Uninstall";
+_KSID_RunIde__M_StartDialog__M_ExitButton EN 2009-10-31 null "Exit";
+_KSID_RunIde__M_StartDialog__M_DontShowAgain EN 2009-10-31 null "Don\'t show this dialog again.";
+_KSID_RunIde__M_StartDialog__M_Caption EN 2009-10-31 null "Start Krkal";
+
+_KSID_RunIde__M_Setup__M_NotImplementedLabel EN 2009-10-31 null "This feature will be implemented in future versions.";
+
+_KSID_RunIde__M_NewUserDialog__M_Label EN 2009-10-31 null "Please enter a name of the new profile:";
+_KSID_RunIde__M_NewUserDialog__M_ProfileExists  EN 2009-10-31 null "Profile of this name already exists. Please choose different name.";
+_KSID_RunIde__M_NewUserDialog__M_UnableToCreateProfile EN 2009-10-31 null "Unable to create profile. Please check that the name uses only characters valid for file names.";

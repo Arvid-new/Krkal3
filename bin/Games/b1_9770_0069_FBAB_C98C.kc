@@ -1,0 +1,4 @@
+#head {
+	version b000_0080_0000_0000;
+	component;
+}

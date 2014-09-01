@@ -1,0 +1,228 @@
+﻿#head {
+	version 43E6_38B1_02FC_8BED;
+	component;
+}
+#attributes []
+#names {
+}
+
+
+
+class name Moves, BlocksMove, StartsMove, Moves.Vote;
+depend @Placeable << {Moves, BlocksMove, StartsMove};
+void MoveEnded(), VoteForMove(), MoveCrashed();
+
+class Moves.Vote {
+	int x,y;
+	name priority;
+	
+	void @Constructor(int Moves.Vote.x, int Moves.Vote.y, name Moves.Vote.priority) {
+		this->x = x;
+		this->y = y;
+		this->priority = priority;
+	}
+}
+
+
+
+// Base of all moving objects
+class Moves {
+
+	int moving;
+	
+	Moves.Vote[] votes;
+	
+	void @MapPlaced() {
+		moving = 0;
+		CalculateMove() message;
+	}
+
+	void $MoveEnded() {
+		moving = 0;
+		CalculateMove() message;
+	}
+
+	void CalculateMove() {
+		if (!moving && @Placeable.IsPlaced()) {
+			if (votes)
+				votes->SetCount(0);
+			$VoteForMove();
+			EvaluateResult();
+		}
+	}
+
+	void AddVote(int x, int y, name priority) {
+		int f=0;
+		for ( ; f < votes->GetCount(); f++) {
+			if (votes[f]->priority < priority)
+				break;
+		}
+		
+		votes->Insert(f, new Moves.Vote(Moves.Vote.x = x, Moves.Vote.y = y, Moves.Vote.priority = priority));
+	}
+	
+	
+	void EvaluateResult() {
+		for (int f=0; f < votes->GetCount(); f++) {
+			Moves.Vote vote = votes[f];
+			if ((vote->x == @Placeable.X && vote->y == @Placeable.Y) || !$IsInCollision(x = vote->x, y = vote->y)) {
+				@Map.PlaceAt(this, vote->x, vote->y);
+				moving = 1;
+				$MoveEnded() timed GetSpeed();
+				return;
+			} else if (f==0) {
+				$MoveCrashed() message;
+			}
+		}
+	}
+	
+	override int GetSpeed() {
+		return 33*5;
+	}
+	
+	retor int $IsInCollision(int x, int y) {
+		return @Map.IsCollision(this, x, y);
+	}
+}
+
+
+
+//////////////////////////////////////////////////////////////////
+
+// Objects that can block and unblock moving objects.
+class BlocksMove {
+	void @MapRemoved() {
+		UnBlock(@Placeable.X, @Placeable.Y);
+	}
+	void @MapMoved(int fromX, int fromY) {
+		UnBlock(fromX, fromY);
+	}
+	
+	direct void UnBlock(int x, int y) {
+		@Placeable[] moves = @Map.Get(x = x-1, y = y-1, dx = 3, dy = 3, type = $Moves);
+		foreach (Moves m in moves) {
+			m->CalculateMove() message;
+		}
+	}
+}
+
+
+// for objects that can cause new move
+class StartsMove {
+	void @MapPlaced() {
+		Start();
+	}
+	void @MapMoved() {
+		Start();
+	}
+	
+	direct void Start() {
+		@Placeable[] moves = @Map.Get(x = @Placeable.X, y = @Placeable.Y, type = $Moves);
+		foreach (Moves m in moves) {
+			m->CalculateMove() message;
+		}
+	}
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+
+class name ChaoticMover, LeftHandMover, StraightMover, StraightMoverBase;
+depend Moves << {ChaoticMover, LeftHandMover, StraightMoverBase};
+depend StraightMoverBase << StraightMover;
+void name WantMovePriority;
+
+// moves randomly
+class ChaoticMover {
+	void $VoteForMove() {
+		int x = @Placeable.X + @Math.Random(2) - 1;
+		int y = @Placeable.Y + @Math.Random(2) - 1;
+		$Moves.AddVote(x=x, y=y, priority=$WantMovePriority);
+	}
+}
+
+
+// moves by left hand rule
+class LeftHandMover {
+	int Direction;
+	static int[][] Moves = {{1,0}, {0,1}, {-1,0}, {0,-1}};
+	
+	void $VoteForMove() {
+		for (int f=0; f<4; f++) {
+			int d = Direction+f;
+			if (d>=4)
+				d-=4;
+		
+			int x = @Placeable.X + Moves[d][0];
+			int y = @Placeable.Y + Moves[d][1];
+			
+			if (!$IsInCollision(x=x, y=y)) {
+				$Moves.AddVote(x=x, y=y, priority=$WantMovePriority);
+				return;
+			}
+		}
+	}
+	
+	void @MapMoved(int fromX, int fromY) {
+		int dx = @Placeable.X - fromX;
+		int dy = @Placeable.Y - fromY;
+		for (int f=0; f<4; f++) {
+			if (Moves[f][0] == dx && Moves[f][1] == dy) {
+				Direction = f-1;
+				if (Direction<0)
+					Direction+=4;
+				return;
+			}
+		}
+	}
+	
+}
+
+
+
+
+// keeps last move direction
+class StraightMoverBase {
+	int dx, dy;
+
+	void @MapMoved(int fromX, int fromY) {
+		dx = @Placeable.X - fromX;
+		dy = @Placeable.Y - fromY;
+	}
+	
+	void $VoteForMove() {
+		ClearDirection() end;
+	}
+
+	void ClearDirection() {
+		if (!$Moves.moving) {
+			dx=0; dy=0;
+		}
+	}
+}
+
+
+
+// moves in one direction and back
+class StraightMover {
+
+	void $VoteForMove() {
+		int x, y;
+		if ($StraightMoverBase.dx == 0 && $StraightMoverBase.dy == 0) {
+			x = @Placeable.X + @Math.Random(2) - 1;
+			y = @Placeable.Y + @Math.Random(2) - 1;
+		} else {
+			x = @Placeable.X + $StraightMoverBase.dx;
+			y = @Placeable.Y + $StraightMoverBase.dy;
+		}
+		
+		if ($IsInCollision(x=x, y=y)) {
+			x = @Placeable.X - $StraightMoverBase.dx;
+			y = @Placeable.Y - $StraightMoverBase.dy;
+		}
+		
+		$Moves.AddVote(x=x, y=y, priority=$WantMovePriority);
+	}
+}

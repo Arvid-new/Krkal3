@@ -1,0 +1,19 @@
+﻿#head {
+	version 3C14_CC3B_D56B_AE94;
+	component;
+}
+#attributes []
+#names {
+}
+
+direct int XXX(); 
+
+class c1 {
+	direct int $XXX(){return 1;};
+	group $a {}
+}
+
+class c2 {
+//	direct int $XXX(){return 1;};
+	group $a {}
+}

@@ -1,0 +1,6 @@
+#head {
+	version b000_0000_0000_0000;
+	/*include "a1.kc" a000_0000_0000_0000;
+	include "a1.kc" 188d_0000_0000_782d;*/
+	component;
+}

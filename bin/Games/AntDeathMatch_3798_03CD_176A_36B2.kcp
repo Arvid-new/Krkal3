@@ -1,0 +1,162 @@
+﻿#head {
+	version 7F0E_8DBA_8CC5_CA6A;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+}
+#attributes []
+#names {
+}
+
+
+//
+//	Console simulation of Ant deathmatch
+//
+//	Ants are randomly moving on a square map.
+//	If they find food their size increases
+//	If they meet, they must fight. The more powerful ant wins.
+//
+//	Simulation can be observed by console messages or by exploration of static variables.
+
+
+
+class name Program;
+
+class Program {
+
+	static void @Main() {
+		string text = "Number of charactes in this text:";
+		@Error.PrintDebugMessage(text = text, param = text->GetCount());
+	}
+	
+	static char ch = 'M';
+	static int i = 1;
+	static double d = 1.1;
+	static double[] arr = {5,4,3,2,1,0};
+	static name n;
+	static @Error error;
+	static Map Map  = new Map(Map.size = 10, Map.food = 40, Map.ants = 15);
+	
+	
+	
+	
+}
+
+class name Placeable, Food, Ant;
+depend Placeable << {Food, Ant};
+
+class name Map;
+
+class Map {
+	Placeable[][] Map;
+	int Size;
+	int Food;
+	int Ants;
+	
+	void @Constructor(int Map.size, int Map.food, int Map.ants) {
+		Size = size;
+		Food = food;
+		Ants = ants;
+		
+		string[] names = {"Ferda", "Karel", "Olda", "Andulka", "Xerxes", "Jindra", "Stepan", "Honza", "David", "Marketa"};
+		
+		// construct square map
+		Map->SetCount(size);
+		for (int i =0; i < Map->GetCount(); i++)
+			Map[i]->SetCount(size);
+			
+		while (food--)
+			TryPlace(new Food());
+
+		while (ants--)
+			TryPlace(new Ant( Ant._name = names[ants % names->GetCount()] + "_" + (ants / names->GetCount())->ToString() ));
+	}
+	
+	direct void TryPlace(Placeable obj) {
+		int x, y;
+		
+		do {
+			 x = @Math.Random(Size-1);
+			 y = @Math.Random(Size-1);
+		} while (Map[x][y]);
+		
+		Place(obj, x, y);
+	}
+
+	
+	direct void Place(Placeable obj, int x, int y) {
+		obj->x = x;
+		obj->y = y;
+		Map[x][y] = obj;
+	}
+
+	direct void Remove(Placeable obj) {
+		Map[obj->x][obj->y] = null;
+	}
+	
+	
+	Placeable GetObject(int x, int y) {
+		return Map[x][y];
+	}
+}
+
+
+
+
+class Placeable {
+	int x,y;
+}
+
+class Ant {
+	int power;
+	string Name;
+	Map Map;
+	
+	void @Constructor(string Ant._name) {
+		Map = sender;
+		Name = _name;
+		Move() timed @Math.Random(600);
+	}
+	
+	
+	void Move() {
+	
+		Map->Remove(this);
+	
+		 int x = @Math.Random(Map->Size-1);
+		 int y = @Math.Random(Map->Size-1);
+		 
+		 Placeable o = Map->GetObject(x = x, y = y);
+		 if (o <= $Food) {
+		 	power++;
+		 	string text = Name->Clone();
+		 	Map->Food--;
+		 	text->AddRangeLast(" found food. His power is now ");
+		 	text->AddRangeLast(power->ToString());
+		 	text->AddLast('.');
+		 	@Error.PrintDebugMessage(text = text, param = Map->Food);
+		 } else if (o <= $Ant) {
+		 	Ant ant = o;
+
+		 	string text = Name->Clone();
+		 	text->AddRangeLast(" attacked ");
+		 	text->AddRangeLast(ant->Name);
+		 	text->AddLast('!');
+		 	@Error.PrintDebugMessage(text = text);
+		 	
+	 		Map->Ants--;
+		 	if (power >= ant->power) {
+		 		@Error.PrintDebugMessage(text = "He won!", param=Map->Ants);
+		 		ant->Kill();
+		 	} else {
+		 		this->Kill();
+		 		@Error.PrintDebugMessage(text = "He lost :(", param=Map->Ants);
+		 		return; // die
+		 	}
+		 	
+		 }
+		 
+		 
+		Map->Place(this, x, y);
+		Move() timed @Math.Random(600);
+	}
+	
+}

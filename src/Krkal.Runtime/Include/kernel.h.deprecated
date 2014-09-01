@@ -1,0 +1,182 @@
+/////////////////////////////////////////////////////////////////////////////
+///
+///		K E R N E L
+///
+///		Hlavni soubor Kernelu. Load levlu a skriptu. Rizeni
+///		A: Honza M.D. Krcek
+///
+/////////////////////////////////////////////////////////////////////////////
+
+
+#pragma once
+
+#ifndef KERKERNEL_H
+#define KERKERNEL_H
+
+#include "Krkal.Runtime.h"
+#include "objects.h"
+#include "CKerMain.h"
+
+
+
+class CKerMain;
+struct CKerMessage;
+struct CKerContext;
+class CKerErrors;
+class CKerServices;
+//class CKerMapInfo;
+//class CKerAutosMain;
+class CKerName;
+class CKerNamesMain;
+class CFSRegister;
+class CFSRegKey;
+struct CKerObject;
+class CFS;
+
+
+// Promenna, kde je ulozen ukazetel na hlavni a jediny objekt kernelu CKerMain
+//extern CKerMain *KerMain;
+
+// Kontext:
+// kontext aktualne volane funkce. Nove volani = novy kontext. Kontexty tvori zasobnik
+//extern CKerContext *KerContext;
+
+// Vytvoreni a naloadovani kernelu. Provadi se pripadne rekompilace skriptu
+// Vyvola vyjimku CKernelPanic, kdyz se to nepodari. Log se ulozi.
+// Kernel bude umisten do promennych KerMain, KerInterpret a KerContext
+// runmode muze byt EDITOR_RUN nebo NORMAL_RUN (hra)
+// DobugMode urcuje zpusob a mnozstvi logovani errorovych hlasek
+// kdyz je scriptonly 0 loaduje se level, 1 - loaduji se pouze skripty
+void KerCreateKernel(int runmode, int debugmode, int scriptonly, char *load);
+
+// Kdyz se nahrava ulozena hra
+// Vytvoreni a naloadovani kernelu. Provadi se pripadne rekompilace skriptu
+// vraci 1 (uspech), 0 - neuspech, level se nepodarilo nahrat, kernel nevytvoren, 
+// nebo vyhodi vyjimku KernelPanic, kernel vytvoren
+int KerLoadGameAndKernel(char *load, CFSRegister *SavedGame=0);
+
+
+
+// Errory pri startu. Je treba kontrolovat. Kernel se nemusi podarit nainicializovat.
+enum eKerOLErrors {
+	eKerOLENoError=0,
+	eKerOLEOpeningLevel,  // error pri loadovani levelu
+	eKerOLEOpeningSCode,  // error pri nacitani skriptu
+	eKerOLENeedToRecompile  // verze kernelu, kdyz byly skripty kompilovany nesouhlasi s aktualni verzi kernelu. Je treba rekompilovat skripty.
+};
+
+
+
+// Mokro Reinicializuje kontext
+
+
+//struct CKerGarbageCollector {
+//	friend CKerArrInt;
+//	friend CKerArrDouble;
+//	friend CKerArrChar;
+//	friend CKerArrPointer;
+//	friend CKerArrObject;
+//	friend CKerArrName;
+//	CKerGarbageCollector() {
+//		GCArrInt=0; GCArrDouble=0; GCArrChar=0; GCArrPointer=0; GCArrName=0; GCArrObject=0;
+//	}
+//	void EmptyMe();
+//private:
+//	CKerArrInt *GCArrInt;
+//	CKerArrDouble *GCArrDouble;
+//	CKerArrChar *GCArrChar;
+//	CKerArrPointer *GCArrPointer;
+//	CKerArrObject *GCArrObject;
+//	CKerArrName *GCArrName;
+//};
+
+
+/////////////////////////////////////////////////////////////////////////////////
+
+//struct CKerLevelInfo {
+//	CKerLevelInfo() { LevelFile=0; ScriptsFile=0; SVersion=0; Author=0; Game=0; Comment=0; Music=0; Tags=0; Difficulty=0; Directory=0; Password=0; LocalNames=0; }
+//	~CKerLevelInfo();
+//	int LoadScript(CFSRegister *reg);
+//	int LoadLevel(CFSRegister *reg);
+//	void SaveLevel(CFSRegister *reg); // sejvne vse krome LevelFile do registru
+//	char *LevelFile;
+//	char *ScriptsFile;
+//	char *SVersion;
+//	__int64 SVersion64;
+//	char *Author;
+//	char *Game;
+//	char *Comment;
+//	char *Music;
+//	double Difficulty;
+//	int Tags;			// viz eMMLevelTags (zda je vdy pristupny, vzdy editovatelny, preskocitelny, zamceny)
+//	char *Directory;	// adresar ve kterem se level ma nachazet. zacina $GAMES$/..
+//	char *Password;		// heslo adresare
+//	CFSRegister *LocalNames;	// lokalizovana jmena luvlu. Bacha pozice muze bejt nastavena na konec
+//};
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////
+///
+///		C K e r M a i n
+///
+///		Hlavni objekt Kernelu - Interface
+///
+/////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+//#include "KerErrors.h"
+
+
+
+// Rutiny, ktere je nutne volat na zacatku Direct call metody. (Inicializace kontextu)
+// Predpoklad Metoda ma jako sve prvni dva parametry: int __CodeLine, OPointer __thisO
+// CKerName * __ObjName (TypObjeku), CKerName *__MName (KSID Jmeno Metody), 
+// char *__MethodName (Retezec KSM jmeno metody, __RetVal - Co vratit v pripade chyby, nastavit podle typu fce (Void - nastav na ; )
+#define DIRECT_CALL_BEGIN(__ObjName, __MethodName, __RetVal) {\
+	CKerObject *__obj = KerMain->Objs->GetObject(__thisO); \
+	if (!__obj) { KerMain->Errors->LogError2(__CodeLine,eKRTEDCNoObj); return __RetVal; } \
+	new CKerContext(__CodeLine); \
+	if (KerContext->parent) KerContext->InitContext(__obj,KerContext->parent->KCthis,0); else KerContext->InitContext(__obj,0,0); \
+	KerContext->MethodName = __MethodName; }
+
+// test na spranvbnost objektu jsem zatim vyhodil
+//	if (__ObjName!=__obj->Type->Name) { KerMain->Errors->LogError2(__CodeLine,eKRTEDCBadObj); return __RetVal; } \
+
+// Rutinny, ktere je treba zavolat na konci Direct Call Metody (Deinicializace kontextu)
+// Pozor, aby metoda nekde nevolala RETURN !!!!
+#define DIRECT_CALL_END {\
+	KerContext->KCthis = 0; \
+	if (KerContext->startmq) KerMain->RunMessages(&(KerContext->startmq), &(KerContext->endmq)); \
+	delete KerContext; }
+
+#define KER_ARGUMENT(_typ, _num) (*(_typ*)KerContext->ParamsArray[_num])
+#define KER_RETARG(_typ) (*(_typ*)KerContext->Params)
+#define KER_NEW(_line,_typ,_size) ((_typ*)KerInterpret->ISMalloc(_line,sizeof(_typ)*(_size)))
+#define KER_NEW2(_typ,_size) ((_typ*)KerInterpret->ISMalloc(sizeof(_typ)*(_size)))
+
+
+
+
+
+
+
+
+#endif
+
+
+

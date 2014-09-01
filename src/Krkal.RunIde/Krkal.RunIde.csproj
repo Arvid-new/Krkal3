@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BFEA5DB-E527-4A30-B869-F10FC3405211}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Krkal.RunIde</RootNamespace>
+    <AssemblyName>Krkal.RunIde</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Builder.designer.cs">
+      <DependentUpon>Builder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateData.Designer.cs">
+      <DependentUpon>CreateData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Engine.cs">
+    </Compile>
+    <Compile Include="FileBrowserDialogEx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowserDialogEx.Designer.cs">
+      <DependentUpon>FileBrowserDialogEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameInfo.cs" />
+    <Compile Include="GameRunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameRunForm.Designer.cs">
+      <DependentUpon>GameRunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdeConfigurationSaver.cs" />
+    <Compile Include="IdeHelper.cs" />
+    <Compile Include="KerConsole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KerConsole.Designer.cs">
+      <DependentUpon>KerConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KerConsoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KerConsoleForm.Designer.cs">
+      <DependentUpon>KerConsoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KrkalApplication.cs" />
+    <Compile Include="NewUserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUserDialog.Designer.cs">
+      <DependentUpon>NewUserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ObjectBrowser.Designer.cs">
+      <DependentUpon>ObjectBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObjectBrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObjectBrowserForm.Designer.cs">
+      <DependentUpon>ObjectBrowserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RunIdeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunIdeForm.Designer.cs">
+      <DependentUpon>RunIdeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RunSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunSetup.Designer.cs">
+      <DependentUpon>RunSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RuntimeStarter.cs" />
+    <Compile Include="Setup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup.Designer.cs">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartDialog.Designer.cs">
+      <DependentUpon>StartDialog.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Krkal.CodeGenerator\Krkal.CodeGenerator.csproj">
+      <Project>{ADDF2033-8E31-4793-ABFB-EB8F320245B0}</Project>
+      <Name>Krkal.CodeGenerator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.Compiler\Krkal.Compiler.csproj">
+      <Project>{A2D0808E-BC2E-4701-92FA-835E1C251B97}</Project>
+      <Name>Krkal.Compiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcproj">
+      <Project>{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}</Project>
+      <Name>Krkal.FileSystem.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.Ide\Krkal.Ide.csproj">
+      <Project>{40793A27-478B-4357-B4C3-FC8943131F3D}</Project>
+      <Name>Krkal.Ide</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.Runtime.Net\Krkal.Runtime.Net.vcproj">
+      <Project>{ED263187-A564-4CAC-8145-FF14517D73FF}</Project>
+      <Name>Krkal.Runtime.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinFormsUI\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Builder.resx">
+      <DependentUpon>Builder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateData.resx">
+      <DependentUpon>CreateData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowserDialogEx.resx">
+      <DependentUpon>FileBrowserDialogEx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameRunForm.resx">
+      <DependentUpon>GameRunForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KerConsole.resx">
+      <DependentUpon>KerConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KerConsoleForm.resx">
+      <DependentUpon>KerConsoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUserDialog.resx">
+      <DependentUpon>NewUserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectBrowser.resx">
+      <DependentUpon>ObjectBrowser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObjectBrowserForm.resx">
+      <DependentUpon>ObjectBrowserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunIdeForm.resx">
+      <DependentUpon>RunIdeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunSetup.resx">
+      <DependentUpon>RunSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup.resx">
+      <DependentUpon>Setup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartDialog.resx">
+      <DependentUpon>StartDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krkal2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ConflictHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormRunHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear_2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshDocViewHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webcontrol_Objectdatasrc.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PauseHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StopHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DataContainer_NewRecordHS.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

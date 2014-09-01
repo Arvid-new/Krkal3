@@ -1,0 +1,108 @@
+﻿
+//
+//		MINI KRKAL
+//
+//	This sample demonstrates Krkal like objects. 
+//	There are implemented abstract classes with basic Krkal features like moving and explosions.
+//	Multiple inheritance is heavily used to combine several behaviors in objects.
+//
+//	This project contains pre-filled map.
+
+
+
+#head {
+	version 2B3D_19B3_F5E5_1A8B;
+	include "SampleSystem_5615_A57B_A943_7EFF.kc" 1D5B_E586_5718_3379;
+	engine _KSId_SampleEngine_4B7D_9CCA_1E1A_EDCB;
+	include "Explosives_B66B_9C15_C400_8478.kc" 2477_616C_8C8D_B71E;
+	include "Moving_BE70_09A1_EF92_529B.kc" 43E6_38B1_02FC_8BED;
+	include "Basic Objects_CA98_12D5_A76E_8931.kc" 30FD_3EA2_CD8E_3A07;
+}
+#attributes []
+#names {
+}
+
+
+class name Program;
+
+class Program {
+	
+	// place sample objects in the Map
+	static void @Main() {
+		@Map.SetSize(x=18, y=12);
+		
+		for(int f=0;f<18;f++) for (int g=0;g<12;g++) {
+			@Map.PlaceAt(new Floor(),f,g);
+		}
+		for (int g=2;g<9;g++) {
+			@Map.PlaceAt(new Wall(),5,g);
+		}
+		for(int f=11;f<18;f++) {
+			@Map.PlaceAt(new Wall(),f,8);
+		}
+		for(int f=0;f<18;f++) {
+			@Map.PlaceAt(new Bomb(),f,0);
+		}
+		for(int f=11;f<18;f++) for (int g=9;g<12;g++) {
+			@Map.PlaceAt(new DestroyableWall(),f,g);
+		}
+		
+		
+		@Map.PlaceAt(new Ice(),8,3);
+		@Map.PlaceAt(new Ice(),9,3);
+		@Map.PlaceAt(new Ice(),8,4);
+		@Map.PlaceAt(new LeftHandMonster(),8,4);
+
+		@Map.PlaceAt(new LeftHandMonster(),5,9);
+	
+		@Map.PlaceAt(new MovingHole(),16,4);
+		@Map.PlaceAt(new Ice(),13,3);
+		@Map.PlaceAt(new Ice(),14,3);
+		@Map.PlaceAt(new Ice(),15,3);
+		@Map.PlaceAt(new Ice(),16,3);
+
+		@Map.PlaceAt(new UpMovingMonster(),13,7);
+		@Map.PlaceAt(new UpMovingMonster(),14,7);
+		@Map.PlaceAt(new UpMovingMonster(),15,7);
+		@Map.PlaceAt(new UpMovingMonster(),16,7);
+
+		@Map.PlaceAt(new SignLeft(),11,6);
+		@Map.PlaceAt(new SignDown(),8,6);
+		@Map.PlaceAt(new SignRight(),8,10);
+		@Map.PlaceAt(new SignRight(),8,9);
+		@Map.PlaceAt(new Ice(),8,9);
+
+		for (int f=0; f<6; f++) {
+			@Map.PlaceAt(new ChaoticMonster(),@Math.Random(4),@Math.Random(11));
+		}
+
+		for (int f=0; f<4; f++) {
+			@Map.PlaceAt(new Hole(),@Math.Random(4),@Math.Random(11));
+		}
+
+		for (int f=0; f<4; f++) {
+			@Map.PlaceAt(new Ice(),@Math.Random(4),@Math.Random(11));
+		}
+
+		for (int f=0; f<2; f++) {
+			@Map.PlaceAt(new Mine(),@Math.Random(4),@Math.Random(11));
+		}
+		
+		for (int f=0; f<2; f++) {
+			@Map.PlaceAt(new Bomb(),@Math.Random(4),@Math.Random(11));
+		}
+
+		SendMine() timed 3000;
+		SendMonster() timed 4000;
+	}
+	
+	static void SendMine() {
+		@Map.PlaceAt(new MovingMine(),11,6);
+		SendMine() timed 2000;
+	}
+	static void SendMonster() {
+		@Map.PlaceAt(new UpMovingMonster(),11,6);
+		SendMonster() timed 2000;
+	}
+	
+}

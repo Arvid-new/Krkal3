@@ -1,0 +1,255 @@
+﻿#head {
+	version A470_D7C9_2D2F_351E;
+	attributesdefinition "RootAttributes_A048_21D6_D7B7_6F4D.data";
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}
+#attributes []
+#names {
+}
+
+
+
+class Saver {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.RootFiles), @SavingFlags.CreateRoot, null, null, null);
+	}	
+}
+
+
+language name @Language.EN [UserName="English"], @Language.CZ [UserName="Čeština"];
+depend @AllLanguages << {@Language.EN, @Language.CZ};
+
+game name KrkalSample, Krkal , Life, AntDeathMatch;
+depend @AllGames << {KrkalSample, Krkal, Life, AntDeathMatch};
+
+solution name Attributes;
+runSource name RootAttributes [File = "RootAttributes_A048_21D6_D7B7_6F4D.data"], KrkalAttributes [File = "Attributes_4A01_D425_153D_5D69.data"];
+compileSource name RootAttributesCS [File = "RootAttributes_A048_21D6_D7B7_6F4D.kcp"], KrkalAttributesCS [File = "Attributes_4A01_D425_153D_5D69.kcp"];
+depend Attributes << {RootAttributes, KrkalAttributes, RootAttributesCS, KrkalAttributesCS};
+
+solution name TestDataObjects;
+runSource name TestDataObjects.Code [File = "CreateDataObjects_462B_25C2_5711_106D.code"], TestDataObjects.Data [File = "CreateDataObjects_462B_25C2_5711_106D.data"];
+compileSource name TestDataObjects.Project [File = "CreateDataObjects_462B_25C2_5711_106D.kcp"];
+depend TestDataObjects << {TestDataObjects.Code, TestDataObjects.Data, TestDataObjects.Project};
+
+
+solution name BigSolution;
+compileSource name LifeCP [File="Life_931E_DDA6_45D0_BF2A.kcp"], AntDeathMatchCP [File ="AntDeathMatch_3798_03CD_176A_36B2.kcp"],MiniKrkalCP [File = "Mini Krkal_FA9B_397F_FDFB_B96B.kcp"];
+depend BigSolution << {LifeCP, AntDeathMatchCP, MiniKrkalCP};
+
+
+
+void name KrkalSample.Icon [File = "GameIcons_E9CF_BB31_E302_9038\\krkal.ico"];
+void name KrkalSample.StartLevel [File = "Mini Krkal_FA9B_397F_FDFB_B96B.code"];
+
+new @GameInformation KrkalSample
+[
+	UserName = "Krkal Sample";
+	Comment = "Features the Mini Krkal sample with windows graphics."
+]
+{
+	WebPage = "www.krkal.org";
+	Author = "MD";
+	Icon = $KrkalSample.Icon;
+	StartLevel = $KrkalSample.StartLevel;
+}
+
+
+void name Krkal.Icon [File = "GameIcons_E9CF_BB31_E302_9038\\krkal.ico"];
+
+new @GameInformation Krkal
+[
+	UserName = "Krkal";
+	Comment = "Krkal is an logical-action game. With one of three different characters, you have to avoid all dangerous traps, deal with various items, escape from deadly monsters and in the first place - boil your brain - to finally find the way through and reach so long desired exit... and then? Just select level that is even more difficult and rush to the battle again. The game contains 50 game objects and 31 really various levels."
+]
+{
+	WebPage = "www.krkal.org";
+	Author = "MD and Krkal Team";
+	Icon = $Krkal.Icon;
+}
+
+
+void name Life.Icon [File = "GameIcons_E9CF_BB31_E302_9038\\koule.png"];
+void name Life.StartLevel [File = "Life_931E_DDA6_45D0_BF2A.code"];
+
+new @GameInformation Life
+[
+	UserName = "Life";
+	Comment = "Conway's Game of Life."
+]
+{
+	WebPage = "http://en.wikipedia.org/wiki/Conway's_Game_of_Life";
+	Author = "MD";
+	Icon = $Life.Icon;
+	StartLevel = $Life.StartLevel;
+}
+
+
+
+void name AntDeathMatch.StartLevel [File = "AntDeathMatch_3798_03CD_176A_36B2.code"];
+
+new @GameInformation AntDeathMatch
+[
+	UserName = "Ant DeathMatch";
+	Comment = "Console simulation of Ant DeathMatch."
+]
+{
+	Author = "MD";
+	StartLevel = $AntDeathMatch.StartLevel;
+}
+
+
+
+depend @AllEngines << SampleEngine;
+
+new engine name @EngineInformation SampleEngine {
+	Assembly = "Krkal.Sample";
+}
+
+
+
+
+depend @AllNewFileTemplates << {ConsoleProject, SampleProject, RootData, CreateData, Translation};
+
+new void name @NewFileTemplate ConsoleProject 
+[
+	UserName = "New Console Project";
+	Comment = "New &Console Project...";
+]
+{
+	Extension = ".kcp";
+	Content =
+@"#head {{
+	version {0};
+	include ""System.Basic_C034_CA74_46A3_FAEE.kc"" FF4C_9AC4_7717_92B5;
+}}
+#attributes []
+#names {{
+}}
+";
+
+}
+
+
+
+
+
+new void name @NewFileTemplate SampleProject 
+[
+	UserName = "New Sample Project";
+	Comment = "New S&ample Project...";
+]
+{
+	Extension = ".kcp";
+	Content =
+@"#head {{
+	version {0};
+	include ""SampleSystem_5615_A57B_A943_7EFF.kc"" 1D5B_E586_5718_3379;
+	engine _KSId_SampleEngine_4B7D_9CCA_1E1A_EDCB;
+	attributesdefinition $Attributes$4B7D_9CCA_1E1A_EDCB;
+}}
+#attributes []
+#names {{
+}}
+";
+
+}
+
+
+
+
+new void name @NewFileTemplate RootData 
+[
+	UserName = "New Root Data Project";
+	Comment = "New &Root Data Project...";
+]
+{
+	Extension = ".kcp";
+	Content =
+@"#head {{
+	version {0};
+	attributesdefinition ""RootAttributes_A048_21D6_D7B7_6F4D.data"";
+	include ""System.Basic_C034_CA74_46A3_FAEE.kc"" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}}
+#attributes []
+#names {{
+}}
+
+
+
+class Saver {{
+	static void @CreateData() {{
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.RootFiles), @SavingFlags.CreateRoot, null, null, null);
+	}}
+}}
+";
+
+}
+
+
+
+
+
+
+
+new void name @NewFileTemplate CreateData 
+[
+	UserName = "New Data Project";
+	Comment = "New &Data Project...";
+]
+{
+	Extension = ".kcp";
+	Content =
+@"#head {{
+	version {0};
+	attributesdefinition ""RootAttributes_A048_21D6_D7B7_6F4D.data"";
+	include ""System.Basic_C034_CA74_46A3_FAEE.kc"" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}}
+#attributes []
+#names {{
+}}
+
+
+
+class Saver {{
+	static void @CreateData() {{
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.DataFiles), @SavingFlags.CreateData, null, null, null);
+	}}
+}}
+";
+
+}
+
+
+
+
+
+
+new void name @NewFileTemplate Translation 
+[
+	UserName = "New Translation File";
+	Comment = "New &Translation File...";
+]
+{
+	Extension = ".tran";
+	Content =
+@"// This file is used to localize text language resources.
+// To each KSID Name can be attached two text attributes: UserName and Comment, which can be localized (translated) to some language.
+// Save translation file under $TRANSLATIONS$ directory. There you can save it under:
+// - mixed language - you can combine any language in the .tran file.
+// - specific language - only that language is used from you .tran file.
+
+// Use the following format inside the .tran file (comments and line breaks are allowed as needed):
+// <Full Ksid identifier with versions> <Language Name> <Date in format YYYY-MM-DD> <Translated UserName as quoted string> <Translated Comment as quoted string> <; semicolon at the end>
+// Sample:
+// @RunIde.StartDialog.LanguageLabel EN 2009-10-31 null ""Language:"";
+// Note: Use current date when you write translation line. If the name is translaeted in more files the translation with the newest date will be used.
+// Note: You can use null or """" (empty string) to skip the translation.
+
+";
+
+}
+

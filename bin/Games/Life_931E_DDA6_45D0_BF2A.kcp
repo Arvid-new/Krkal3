@@ -1,0 +1,95 @@
+﻿
+
+//
+//		Conway's Game of Life
+//
+
+
+
+#head {
+	version 3B34_A094_1A0F_0F70;
+	include "SampleSystem_5615_A57B_A943_7EFF.kc" 1D5B_E586_5718_3379;
+	engine _KSId_SampleEngine_4B7D_9CCA_1E1A_EDCB;
+}
+#attributes []
+#names {
+}
+
+
+
+class name Mattoni, Balonek, Program;
+depend @Placeable << {Mattoni, Balonek};
+
+
+// Life is controlled by a special floor
+class Mattoni {
+	string @Placeable.Image = "kamenyA.png";
+	int @Placeable.Z = 0;
+
+	void @MapPlaced() {
+		int x = @Placeable.X;
+		int y = @Placeable.Y;
+		int balonky = @Map.GetCount(x=x-1, y=y-1, dx=3, dy=3, type=$Balonek);
+
+		if (@Map.GetCount(x=x, y=y, type=$Balonek)) {
+			if (balonky <= 2 || balonky >= 5) 
+				@Map.Get(x=x, y=y, type=$Balonek)[0]->@Destructor() end;
+		} else {
+			if (balonky == 3) 
+				Vytvor() end;
+		}
+	
+		@MapPlaced() timed 330;
+	}
+	
+	void Vytvor() {
+		Balonek b = new Balonek();
+		@Map.PlaceAt(b, @Placeable.X, @Placeable.Y);	
+	}
+}
+
+
+
+
+
+class Balonek {
+	string @Placeable.Image = "koule.png";
+	int @Placeable.Z = 10;
+}
+
+
+
+
+
+
+
+class Program {
+
+	// inits Map
+	static void @Main() {
+		@Map.SetSize(x = 20, y = 20);
+		
+		for (int g=0; g < 20; g++) {
+			for (int f=0; f < 20; f++) {
+				Mattoni m = new Mattoni();
+				@Map.PlaceAt(m, f, g);
+			}
+		}
+		
+		if (@Math.Random(1)) {
+			@Map.PlaceAt(new Balonek(), 9, 9);
+			@Map.PlaceAt(new Balonek(), 8, 9);
+			@Map.PlaceAt(new Balonek(), 10, 9);
+			@Map.PlaceAt(new Balonek(), 9, 10);
+		} else {
+			@Map.PlaceAt(new Balonek(), 9, 9);
+			@Map.PlaceAt(new Balonek(), 8, 9);
+			@Map.PlaceAt(new Balonek(), 9, 8);
+			@Map.PlaceAt(new Balonek(), 9, 10);
+			@Map.PlaceAt(new Balonek(), 10, 8);
+			@Map.PlaceAt(new Balonek(), 10, 10);
+			@Map.PlaceAt(new Balonek(), 11, 9);
+		}
+
+	}
+}

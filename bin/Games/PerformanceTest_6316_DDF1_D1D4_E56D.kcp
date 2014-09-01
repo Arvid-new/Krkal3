@@ -1,0 +1,12160 @@
+﻿#head {
+	version 27E5_4108_FEE9_41A3;
+}
+#attributes []
+#names {
+}
+
+
+class name Test;
+
+class Test {
+	int z;
+	
+	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+
+
+
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+
+
+
+
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+
+
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}
+class name Test;
+
+class Test {
+//	int z;
+	
+//	Test next;
+	string karel;
+	int Test(double bla) {
+	
+		string aaa = null;
+	
+		string s;
+		s = "ahoj" + "bubaku" + {7.5};
+		Test(bla = 7);
+		Test t = new Test();
+		t->Test(bla = Test());
+		int a = 0;
+		//int i;
+		string[] ss = {s, "Karle"};
+		foreach(int i in ss; i<6) {
+			a+=i;
+		}
+		
+		for(int i=3;  - --i;) {
+		}
+
+		z;
+		
+		name proc = &Test;
+		static->(proc)();
+		int kkk = -~t->(proc)((proc) = s)[5][this->(proc)()] + 5;
+		
+		t = t->next->next->next;
+		
+		1 + 3*6 + Test() << 8 < 8 && 1+3*6/2 == 99;
+		
+		
+		return 8;
+	}
+	
+	Test[] Test2()
+	{
+		char[] b;
+		int[] a;
+		a[2] = b[1];
+		
+		return {this}+Test2();
+	}
+	int g;
+//	Test2 jjj;
+}
+
+
+class name Test2;
+depend Test << Test2;
+
+class Test2 {
+	retand int Test() {
+	}
+	extern retand int Test() {	
+	
+	//	_KSL_a_84648 = PRAM()
+	}
+
+	Test[] $Test.Test2(int a) {
+		$Test.Test2(a = 5);
+	}
+}

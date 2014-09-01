@@ -1,0 +1,20 @@
+Jazyk pro øízení 2D her
+Anglický název práce: A controlling language for 2D games 
+Akademický rok vypsání: 2005/2006 
+Typ práce: diplomová práce 
+Jazyk práce:  
+Vedoucí: RNDr. David Bednárek 
+Øešitel: Jan Krèek - zadáno a potvrzeno stud. odd. 07.11.2005 
+Obor: softwarové systémy 
+
+Zásady pro vypracování 
+Navrhnout jazyk pro øízení tahových i real-time her s logickými èi simulaèními prvky ve dvourozmìrném prostøedí. 
+Implementovat pøekladaè jazyka do zvoleného mezikódu a do jazyka C++. Výchozím prostøedím pro nasazení 
+jazyka bude systém Krkal vytvoøený stejnojmenným projektem. 
+
+Seznam odborné literatury 
+- Krkal, Softwarový projekt, MFF UK Praha, 2004, http://www.volny.cz/m.d./krkal.html 
+- Mak, Writing compilers and interpreters, John Wiley & Sons, 1996 
+- Nierstrasz O., "A Tour of Hybrid: A Language for Programming with Active Objects", in "Advances in Object-Oriented Software Engineering", Prentice Hall, pp167-182, 1992 http://citeseer.csail.mit.edu/nierstrasz92tour.html 
+ 
+

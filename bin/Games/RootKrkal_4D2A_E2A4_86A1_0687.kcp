@@ -1,0 +1,53 @@
+﻿#head {
+	version 2BB5_0247_B3C9_4898;
+	attributesdefinition "RootAttributes_A048_21D6_D7B7_6F4D.data";
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}
+#attributes []
+#names {
+}
+
+
+
+class Saver {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.RootFiles), @SavingFlags.CreateRoot, null, null, null);
+	}
+}
+
+
+
+
+
+depend @AllEngines << KrkalGen;
+
+new engine name @EngineInformation KrkalGen {
+	Assembly = "Krkal.GEn";
+}
+
+
+
+
+depend @AllNewFileTemplates << KrkalGenProject;
+
+new void name @NewFileTemplate KrkalGenProject 
+[
+	UserName = "New Krkal Gen Project";
+	Comment = "New &Krkal Gen Project...";
+]
+{
+	Extension = ".kcp";
+	Content =
+@"#head {{
+	version {0};
+	include ""System.Basic_C034_CA74_46A3_FAEE.kc"" FF4C_9AC4_7717_92B5;
+	engine _KSId_KrkalGen_4D2A_E2A4_86A1_0687;
+	attributesdefinition $Attributes$4B7D_9CCA_1E1A_EDCB;
+}}
+#attributes []
+#names {{
+}}
+";
+
+}

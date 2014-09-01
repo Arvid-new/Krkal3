@@ -1,0 +1,153 @@
+﻿#head {
+	version 2477_616C_8C8D_B71E;
+	component;
+}
+#attributes []
+#names {
+}
+
+
+
+//////////////////////////////////////
+//		Explosion
+
+class name Explosion, AffectedByExplosion;
+depend {@Placeable, BlocksMove} << Explosion;
+void DestroyInExplosion();
+depend @Destructor << DestroyInExplosion;
+
+class Explosion {
+	int @Placeable.Z = 20;
+	string @Placeable.Image = "bomba06.png";
+	
+	void @MapPlaced() {
+		Done() timed 250;
+	}
+	
+	void Done() {
+		@Placeable[] objs = @Map.Get(x=@Placeable.X, y=@Placeable.Y, type=$AffectedByExplosion);
+		foreach (@Placeable obj in objs) {
+			obj->$DestroyInExplosion() callend obj;
+		}
+		this->Kill();
+	}
+}
+
+
+
+
+//////////////////////////////////////////////////////////
+//		Objects that cannot move in explosion
+
+
+class name BlockedByExplosion;
+depend Moves << BlockedByExplosion << {ChaoticMonster, StraightMonster, LeftHandMonster};
+void name ExplosionBlockingPriority;
+depend ExplosionBlockingPriority << IcePriority;
+
+class BlockedByExplosion {
+	void $VoteForMove() {
+		if (!@Map.GetCount(x=@Placeable.X, y=@Placeable.Y, type=$Explosion))
+			return;			
+			
+		$Moves.AddVote(x=@Placeable.X, y= @Placeable.Y, priority=$ExplosionBlockingPriority);
+	}
+
+	retor int $IsInCollision(int x, int y) {
+		return (@Map.GetCount(x=x, y=y, type=$Explosion));
+	}
+
+}
+
+
+
+
+/////////////////////////////////////////////////////////////
+//		Exploding objects
+
+class name Explodes;
+depend @Placeable << Explodes;
+
+class Explodes {
+	void $Explode() {
+		for (int f=-1; f<=1; f++) for (int g=-1; g<=1; g++) {
+			int x = @Placeable.X + f;
+			int y = @Placeable.Y + g;
+			if (@Map.IsInMap(x,y)) {
+				Explosion e = new Explosion();
+				@Map.PlaceAt(e,x,y);
+			}
+		}
+		this->Kill();
+	}
+}
+
+class name ExplodesInExplosion;
+depend AffectedByExplosion << ExplodesInExplosion;
+depend {ExplodesInExplosion, Explodes} << {ChaoticMonster, StraightMonster, LeftHandMonster, Bomb};
+
+class ExplodesInExplosion {
+	void $DestroyInExplosion() {
+		$Explode();
+	}
+}
+
+
+
+
+////////////////////////////////////////////////////
+
+
+class name Bomb;
+depend FallsInHole << {Bomb, Mine};
+class Bomb {
+	int @Placeable.Z = 10;
+	string @Placeable.Image = "bomba.png";
+}
+
+class name ActivatedBomb;
+depend Bomb << ActivatedBomb;
+class ActivatedBomb {
+	string @Placeable.Image = "bomba01.png";
+
+	void @MapPlaced() {
+		$Explode() timed 800;
+	}
+}
+
+
+class name Mine, ActivatesMine;
+depend {ExplodesInExplosion, Explodes} << Mine;
+depend ActivatesMine << {Explosion, ChaoticMonster, StraightMonster, LeftHandMonster};
+
+class Mine {
+	int @Placeable.Z = 10;
+	string @Placeable.Image = "aktivnimina.png";
+
+
+	void @MapPlaced() {
+		CheckIt() message;
+	}
+	
+	void CheckIt() {
+		if (@Placeable.IsPlaced()) {
+			if (@Map.GetCount(x=@Placeable.X-1, y=@Placeable.Y-1, dx=3, dy=3, type=$ActivatesMine)) {
+				$Explode() timed 400;
+				return;
+			}
+			
+			CheckIt() nextturn;
+		}
+	}
+}
+
+
+
+
+class name MovingMine;
+depend {Mine, BlocksMove, StraightMover, FallsInHole, MovesBySign} << MovingMine;
+class MovingMine {
+	int @Placeable.Z = 10;
+	string @Placeable.Image = "aktivnimina.png";
+	int $StraightMoverBase.dy = -1;
+}

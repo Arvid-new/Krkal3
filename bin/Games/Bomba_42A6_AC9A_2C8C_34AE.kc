@@ -1,0 +1,53 @@
+﻿#head {
+	version 38B4_BE32_4854_448C;
+}
+#attributes []
+#names {
+}
+
+
+class name Placeable, Moveable, Explosive, Bomb;
+void name InventoryItem;
+
+depend Placeable << {Moveable, Explosive};
+depend {Moveable, Explosive, InventoryItem} << Bomb;
+
+class Placeable {
+	int x,y;	// coordinates
+}
+
+class Explosive {
+	int power;
+	void @Constructor() {
+		power = GetPower();
+	}
+	override int GetPower() {
+		return 100;
+	}
+	
+
+	void $Explode() {
+		// ...
+	}
+	
+	void $OnCrash() {
+		$Explode() message;
+	}
+}
+
+class Bomb {
+	int IsActive [Editable];
+	void @Constructor() {
+		if (IsActive)
+			Activate();
+	}
+	
+	void Activate() {
+		IsActive = true;
+		$Explode() timed 300;
+	}
+	
+	override int $Explosive.GetPower() {
+		return 50;
+	}
+}

@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreLib", "CoreLib.csproj", "{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "textboxtester", "..\textboxtester\textboxtester.csproj", "{C19C8674-144B-4EDD-BA91-89FB58F96D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonControls", "..\CommonControls\CommonControls.csproj", "{822158B9-88D1-4844-9BB0-23E815F321F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Debug.ActiveCfg = Debug|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Debug.Build.0 = Debug|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Release.ActiveCfg = Release|.NET
+		{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}.Release.Build.0 = Release|.NET
+		{C19C8674-144B-4EDD-BA91-89FB58F96D8A}.Debug.ActiveCfg = Debug|.NET
+		{C19C8674-144B-4EDD-BA91-89FB58F96D8A}.Debug.Build.0 = Debug|.NET
+		{C19C8674-144B-4EDD-BA91-89FB58F96D8A}.Release.ActiveCfg = Release|.NET
+		{C19C8674-144B-4EDD-BA91-89FB58F96D8A}.Release.Build.0 = Release|.NET
+		{822158B9-88D1-4844-9BB0-23E815F321F6}.Debug.ActiveCfg = Debug|.NET
+		{822158B9-88D1-4844-9BB0-23E815F321F6}.Debug.Build.0 = Debug|.NET
+		{822158B9-88D1-4844-9BB0-23E815F321F6}.Release.ActiveCfg = Release|.NET
+		{822158B9-88D1-4844-9BB0-23E815F321F6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

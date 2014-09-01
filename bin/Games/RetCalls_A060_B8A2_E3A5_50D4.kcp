@@ -1,0 +1,50 @@
+﻿#head {
+	version F526_F285_5D6A_DD3B;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+}
+#attributes []
+#names {
+}
+
+
+
+class name Program;
+
+ 
+class Program {
+	
+	static void @Main() {
+		
+		int a;
+		ReturnRandom(a);
+		@Error.PrintDebugMessage(param = a);
+		
+		int[][] arr = {{1}};
+
+		ReturnRandom(arr[0][0]);
+		@Error.PrintDebugMessage(param = arr[0][0]);
+
+		@Error.PrintDebugMessage(text = "------");
+
+		Return66(val = a);
+		@Error.PrintDebugMessage(param = a);
+
+		Return66(val = arr[0][0]);
+		@Error.PrintDebugMessage(param = arr[0][0]);
+
+		Return66(ret val = a);
+		@Error.PrintDebugMessage(param = a);
+
+		Return66(ret val = arr[0][0]);
+		@Error.PrintDebugMessage(param = arr[0][0]);
+	}
+	
+	
+	static direct void ReturnRandom(ret int rnd) {
+		rnd = @Math.Random(9);
+	}
+	
+	static void Return66(ret int val) {
+		val = 66;
+	}
+}

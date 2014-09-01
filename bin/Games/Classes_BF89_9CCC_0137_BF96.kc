@@ -1,0 +1,97 @@
+﻿#head {
+	version A3F1_32CF_6DCC_F0D7;
+	component;
+}
+#attributes []
+#names {
+}
+
+
+
+
+class name Base, Left, Right, Derived;
+depend Base << { Left, Right } << Derived;
+
+
+class Base {
+	int b;
+	
+	void @Constructor(int Base.Value) {
+		b = Value;
+	}
+	
+	override string $WhoAmI() {
+		return "I'm Base";
+	}
+	
+	void $IncrementMyVariables() {
+		b++;
+	}
+	
+	void $WriteVariables() {
+		@Error.PrintDebugMessage(text = "Base: b", param = b);
+	}
+}
+
+
+
+
+class Left {
+	int l;
+	
+	void @Constructor(int Left.Value) {
+		l = Value;
+	}
+	
+	override string $WhoAmI() {
+		return "I'm Left";
+	}
+	
+	void $IncrementMyVariables() {
+		l++;
+	}
+	
+	void $WriteVariables() {
+		@Error.PrintDebugMessage(text = "Left: b", param = $Base.b);
+		@Error.PrintDebugMessage(text = "Left: l", param = l);
+	}
+}
+
+
+
+class Right {
+	int r;
+	
+	void @Constructor(int Right.Value) {
+		r = Value;
+	}
+	
+	override string $WhoAmI() {
+		return "I'm Right";
+	}
+	
+	void $IncrementMyVariables() {
+		r++;
+	}
+	
+	void $WriteVariables() {
+		@Error.PrintDebugMessage(text = "Right: b", param = $Base.b);
+		@Error.PrintDebugMessage(text = "Right: r", param = r);
+	}
+}
+
+
+
+class Derived {
+
+	override string $WhoAmI() {
+		return "I'm Derived";
+	}
+	
+	void $WriteVariables() {
+		@Error.PrintDebugMessage(text = "Derived: b", param = $Base.b);
+		@Error.PrintDebugMessage(text = "Derived: r", param = $Right.r);
+		@Error.PrintDebugMessage(text = "Derived: l", param = $Left.l);
+	}
+	
+}

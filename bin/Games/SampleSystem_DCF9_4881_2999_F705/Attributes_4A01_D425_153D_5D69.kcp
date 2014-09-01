@@ -1,0 +1,31 @@
+﻿#head {
+	system;
+	version C203_66A4_8A65_A35B;
+	include "System.Basic_C034_CA74_46A3_FAEE.kc" FF4C_9AC4_7717_92B5;
+	generatesdata;
+}
+#attributes []
+#names {
+}
+
+
+
+new Attribute Attribute.VarFlag {
+	Location = @AttributeLocation.OnFields | @AttributeLocation.Inherit;
+	Filter = {@NameType.Variable, @NameType.StaticVariable};
+}
+
+
+new Attribute Attribute.ClassFlag {
+	Location = @AttributeLocation.OnNames;
+	Filter = {@NameType.Class, @NameType.Void};
+}
+
+
+
+
+class Saver {
+	static void @CreateData() {
+		@DataObjects.Save(@DataObjects.GetDataFileFromCodeFile(@LacalizeDataFileTo.DataFiles), @SavingFlags.SaveAllDataObjects | @SavingFlags.SaveDataFile, null, null, null);
+	}
+}

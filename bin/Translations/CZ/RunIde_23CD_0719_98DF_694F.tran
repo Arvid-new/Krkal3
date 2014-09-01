@@ -1,0 +1,17 @@
+﻿_KSID_RunIde__M_StartDialog__M_LanguageLabel CZ 2009-10-31 null "Jazyk:";
+_KSID_RunIde__M_StartDialog__M_UserLabel CZ 2009-10-31 null "Uživatelský profil:";
+_KSID_RunIde__M_StartDialog__M_NewUserLabel CZ 2009-10-31 null "Nový profil";
+_KSID_RunIde__M_StartDialog__M_AuthorLabel CZ 2009-10-31 null "Autor:";
+_KSID_RunIde__M_StartDialog__M_WebPageLabel CZ 2009-10-31 null "Webová stránka:";
+_KSID_RunIde__M_StartDialog__M_StartGameButton CZ 2009-10-31 null "Spustit hru";
+_KSID_RunIde__M_StartDialog__M_RunIdeButton CZ 2009-10-31 null "Tvořit hry";
+_KSID_RunIde__M_StartDialog__M_SetupButton CZ 2009-10-31 null "Instalace Odinstalace";
+_KSID_RunIde__M_StartDialog__M_ExitButton CZ 2009-10-31 null "Konec";
+_KSID_RunIde__M_StartDialog__M_DontShowAgain CZ 2009-10-31 null "Příště už nezobrazovat tento dialog.";
+_KSID_RunIde__M_StartDialog__M_Caption CZ 2009-10-31 null "Start Krkala";
+
+_KSID_RunIde__M_Setup__M_NotImplementedLabel CZ 2009-10-31 null "Tato funkcionalita bude implementována v příštích verzích.";
+
+_KSID_RunIde__M_NewUserDialog__M_Label CZ 2009-10-31 null "Zadejte jméno nového profilu:";
+_KSID_RunIde__M_NewUserDialog__M_ProfileExists  CZ 2009-10-31 null "Profil s tímto jménem už existuje. Prosím zvolte nějaké jiné.";
+_KSID_RunIde__M_NewUserDialog__M_UnableToCreateProfile CZ 2009-10-31 null "Nepodařilo se vytvořit profil. Zkontrolujte zda jméno obsahuje pouze znaky povolené v názvech souborů.";

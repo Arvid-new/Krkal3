@@ -1,0 +1,400 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40793A27-478B-4357-B4C3-FC8943131F3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Krkal.Ide</RootNamespace>
+    <AssemblyName>Krkal.Ide</AssemblyName>
+    <ApplicationIcon>Resources\krkal.ico</ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassView.Designer.cs">
+      <DependentUpon>ClassView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CopyFilesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CopyFilesDialog.Designer.cs">
+      <DependentUpon>CopyFilesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummyDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummyDoc.Designer.cs">
+      <DependentUpon>DummyDoc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummyOutputWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummyOutputWindow.Designer.cs">
+      <DependentUpon>DummyOutputWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummyPropertyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummyPropertyWindow.Designer.cs">
+      <DependentUpon>DummyPropertyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummySolutionExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummySolutionExplorer.Designer.cs">
+      <DependentUpon>DummySolutionExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummyTaskList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummyTaskList.Designer.cs">
+      <DependentUpon>DummyTaskList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\DummyToolbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\DummyToolbox.Designer.cs">
+      <DependentUpon>DummyToolbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoubleClickableTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DoubleClickableTreeView.Designer.cs">
+      <DependentUpon>DoubleClickableTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorList.Designer.cs">
+      <DependentUpon>ErrorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileBrowserDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileBrowserDialog.Designer.cs">
+      <DependentUpon>FileBrowserDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IdeHelper.cs" />
+    <Compile Include="KrkalCodeDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KrkalCodeDocument.Designer.cs">
+      <DependentUpon>KrkalCodeDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KrkalDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MoveFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MoveFileDialog.Designer.cs">
+      <DependentUpon>MoveFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NameFilterDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameFilterDialog.Designer.cs">
+      <DependentUpon>NameFilterDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NameTreeControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="NameTreeControl.Designer.cs">
+      <DependentUpon>NameTreeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NameView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameView.Designer.cs">
+      <DependentUpon>NameView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFileDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFileDialog.Designer.cs">
+      <DependentUpon>NewFileDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DockingSample\AboutDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummyDoc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummyDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummyOutputWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummyOutputWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummyPropertyWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummyPropertyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummySolutionExplorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummySolutionExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummyTaskList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummyTaskList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\DummyToolbox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DummyToolbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegisterDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterDocument.Designer.cs">
+      <DependentUpon>RegisterDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SolutionExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SolutionExplorer.Designer.cs">
+      <DependentUpon>SolutionExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DockingSample\ToolWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DockingSample\ToolWindow.Designer.cs">
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\ArrowDown.bmp" />
+    <None Include="Images\ArrowUp.bmp" />
+    <None Include="Images\Bitmap.ico" />
+    <None Include="Images\BlankIcon.ico" />
+    <None Include="Images\ClosedFolder.ICO" />
+    <None Include="Images\CSFile.ico" />
+    <None Include="Images\CSProject.ico" />
+    <None Include="Images\File.ico" />
+    <None Include="Images\Form.ico" />
+    <None Include="Images\Mouse.bmp" />
+    <None Include="Images\msenv22.ico" />
+    <None Include="Images\New.ico" />
+    <None Include="Images\Open.ico" />
+    <None Include="Images\OpenFolder.ICO" />
+    <None Include="Images\OutputWindow.ico" />
+    <None Include="Images\PropertyWindow.ico" />
+    <None Include="Images\Reference.ico" />
+    <None Include="Images\References.ico" />
+    <None Include="Images\SolutionExplorer.ico" />
+    <None Include="Images\TaskListWindow.ico" />
+    <None Include="Images\ToolboxWindow.ico" />
+    <None Include="Images\XmlFile.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ClassView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CopyFilesDialog.resx">
+      <DependentUpon>CopyFilesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorList.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ErrorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileBrowserDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FileBrowserDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KrkalCodeDocument.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KrkalCodeDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoveFileDialog.resx">
+      <DependentUpon>MoveFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameFilterDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NameFilterDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NameView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFileDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewFileDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterDocument.resx">
+      <DependentUpon>RegisterDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\DockPanel.xml" />
+    <EmbeddedResource Include="SolutionExplorer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SolutionExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DockingSample\ToolWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ToolWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CriticalError.bmp" />
+    <None Include="Resources\Filter2HS.png" />
+    <None Include="Resources\Control_TreeView.bmp" />
+    <None Include="Resources\CheckGrammarHS.png" />
+    <None Include="Resources\BuilderDialog_RemoveAll.bmp" />
+    <None Include="Resources\gear_2.bmp" />
+    <None Include="Resources\CopyHS.png" />
+    <Content Include="Resources\krkal.ico" />
+    <None Include="Resources\RefreshDocViewHS.bmp" />
+    <None Include="Resources\XPfolder_closed.bmp" />
+    <None Include="Resources\VSProject_database.bmp" />
+    <None Include="Resources\MoveToFolderHS.png" />
+    <None Include="Resources\RadialChartHS.png" />
+    <None Include="Resources\PushpinHS.png" />
+    <None Include="Resources\krkal2.jpg" />
+    <None Include="Resources\NewDocumentHS.png" />
+    <None Include="Resources\VSObject_Module.bmp" />
+    <None Include="Resources\VSProject_genericproject_small.bmp" />
+    <None Include="Resources\OrgChartHS.png" />
+    <None Include="Resources\VSObject_Class.bmp" />
+    <None Include="Resources\VSProject_generatedfile.bmp" />
+    <None Include="Resources\warning.bmp" />
+    <None Include="Resources\GoLtrHS.png" />
+    <None Include="Resources\GoToNextHS.png" />
+    <None Include="Resources\LegendHS.png" />
+    <None Include="Resources\DeleteHS.png" />
+    <None Include="Resources\NewFolderHS.png" />
+    <None Include="Resources\GoToParentFolderHS.png" />
+    <None Include="Resources\openfolderHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aga.Controls\Aga.Controls.csproj">
+      <Project>{E73BB233-D88B-44A7-A98F-D71EE158381D}</Project>
+      <Name>Aga.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.Compiler\Krkal.Compiler.csproj">
+      <Project>{A2D0808E-BC2E-4701-92FA-835E1C251B97}</Project>
+      <Name>Krkal.Compiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Krkal.FileSystem.Net\Krkal.FileSystem.Net.vcproj">
+      <Project>{9E0EBE75-87E7-4EC8-B44C-6C41C33E375E}</Project>
+      <Name>Krkal.FileSystem.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Puzzle.CoreLib\Puzzle.CoreLib.NET 2.0.csproj">
+      <Project>{7858FB56-9BB3-40CE-BA9C-5FB9F04E79DE}</Project>
+      <Name>Puzzle.CoreLib.NET 2.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Puzzle.SyntaxBox\Puzzle.SyntaxBox.NET 2.0.csproj">
+      <Project>{19EF75B2-B414-4EB0-9486-160FAF93E62C}</Project>
+      <Name>Puzzle.SyntaxBox.NET 2.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Puzzle.SyntaxDocument\Puzzle.SyntaxDocument.NET 2.0.csproj">
+      <Project>{55D040D8-B8F2-4C15-8FCD-A73F82A3882C}</Project>
+      <Name>Puzzle.SyntaxDocument.NET 2.0</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinFormsUI\WinFormsUI.csproj">
+      <Project>{C75532C4-765B-418E-B09B-46D36B2ABDB1}</Project>
+      <Name>WinFormsUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
