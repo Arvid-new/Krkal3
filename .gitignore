@@ -27,3 +27,6 @@ src/ipch/
 src/_UpgradeReport_Files/
 src/KRKAL 3.0.sdf
 src/**/Release/
+/bin/Profiles/HonzaMD.user/
+/src/KRKAL 3.0.opensdf
+/src/KRKAL 3.0.v12.suo
