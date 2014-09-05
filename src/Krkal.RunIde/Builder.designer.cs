@@ -60,7 +60,7 @@ namespace Krkal.RunIde
 			this.binPath.Name = "binPath";
 			this.binPath.Size = new System.Drawing.Size(326, 20);
 			this.binPath.TabIndex = 1;
-			this.binPath.Text = @"C:\WINDOWS\Microsoft.NET\Framework\v3.5";
+            this.binPath.Text = @"c:\Program Files (x86)\MSBuild\12.0\Bin";
 			// 
 			// label1
 			// 

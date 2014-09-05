@@ -13,7 +13,7 @@ namespace Krkal.Sample
 	public class SampleEngine : DefaultEngine
 	{
 		protected override string GetKSSource() {
-			return "Krkal.KS.Sample.2008";
+			return "Krkal.KS.Sample";
 		}
 
 		public override EngineForm CreateGame(IRuntimeStarter runtimeStarter) {

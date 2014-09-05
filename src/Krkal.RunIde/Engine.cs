@@ -241,7 +241,7 @@ namespace Krkal.RunIde
 		}
 
 
-		protected virtual String GetKSSource() { return "Krkal.KS.Default.2008"; }
+		protected virtual String GetKSSource() { return "Krkal.KS.Default"; }
 
 		public virtual void InitialzeCompiler(Compilation compilation, CustomSyntax customSyntax) {
 			customSyntax.CreateCodeGeneratorDelegate = CreateDefaultCodeGenerator;

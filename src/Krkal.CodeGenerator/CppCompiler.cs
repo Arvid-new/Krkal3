@@ -11,13 +11,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-using Microsoft.Build.BuildEngine;
-using Microsoft.Build.Framework;
+//using Microsoft.Build.BuildEngine;
+//using Microsoft.Build.Framework;
 using Krkal.Compiler;
-using Microsoft.Build.Utilities;
+//using Microsoft.Build.Utilities;
 using System.Globalization;
 using System.Diagnostics;
 using System.IO;
+using Microsoft.Build.Evaluation;
+using Microsoft.Build.Utilities;
+using Microsoft.Build.Logging;
 
 
 namespace Krkal.CodeGenerator
@@ -84,31 +87,24 @@ namespace Krkal.CodeGenerator
 		private bool Build() {
 			_generator.Compilation.OutputMessage("Running Cpp compiler ...\n\n");
 
-			Engine engine = new Engine(_generator.MSBuildPath);
+            ProjectCollection collection = new ProjectCollection(ToolsetDefinitionLocations.Registry);
 
-			String[] targets = new string[1];
-			if (_generator.Compilation.RebuildAll) {
-				targets[0] = "Rebuild";
-			} else {
-				targets[0] = "Build";
-			}
-
-			BuildPropertyGroup properies = new BuildPropertyGroup();
-			properies.SetProperty("Configuration", _generator.Configuration);
+            collection.SetGlobalProperty("Configuration", _generator.Configuration);
 
 			String path = null;
 			_generator.FS.GetFullPath(_generator.CppSourcePath, ref path);
 
 			FileLogger logger = new FileLogger();
 			logger.Parameters = @"logfile=" + path + @"\build.log";
-			engine.RegisterLogger(logger);
+			collection.RegisterLogger(logger);
 			MyLogger myLogger = new MyLogger(_generator.Compilation);
-			engine.RegisterLogger(myLogger);
+			collection.RegisterLogger(myLogger);
 
+            Project project = collection.LoadProject(path + @"\Krkal.KS.vcxproj");
 
-			bool success = engine.BuildProjectFile(path + @"\Krkal.KS.sln", targets, properies);
+            bool success = project.Build(_generator.Compilation.RebuildAll ? "Rebuild" : "Build");
 
-			engine.UnregisterAllLoggers();
+			collection.UnregisterAllLoggers();
 
 			return success;
 		}
@@ -136,7 +132,7 @@ namespace Krkal.CodeGenerator
 		/// Initialize is guaranteed to be called by MSBuild at the start of the build
 		/// before any events are raised.
 		/// </summary>
-		public override void Initialize(IEventSource eventSource) {
+		public override void Initialize(Microsoft.Build.Framework.IEventSource eventSource) {
 			if (eventSource == null)
 				throw new ArgumentNullException("eventSource");
 
@@ -151,26 +147,26 @@ namespace Krkal.CodeGenerator
 			
 			//eventSource.AnyEventRaised += new AnyEventHandler(eventSource_AnyEventRaised);
 
-			eventSource.MessageRaised += new BuildMessageEventHandler(eventSource_AnyEventRaised);
-			eventSource.WarningRaised += new BuildWarningEventHandler(eventSource_WarningRaised);
-			eventSource.ErrorRaised += new BuildErrorEventHandler(eventSource_ErrorRaised);
+			eventSource.MessageRaised += new Microsoft.Build.Framework.BuildMessageEventHandler(eventSource_AnyEventRaised);
+			eventSource.WarningRaised += new Microsoft.Build.Framework.BuildWarningEventHandler(eventSource_WarningRaised);
+			eventSource.ErrorRaised += new Microsoft.Build.Framework.BuildErrorEventHandler(eventSource_ErrorRaised);
 		
 		}
 
-		void eventSource_AnyEventRaised(object sender, BuildEventArgs e) {
+		void eventSource_AnyEventRaised(object sender, Microsoft.Build.Framework.BuildEventArgs e) {
 			if (String.Compare(e.SenderName, "MSBuild", true, CultureInfo.CurrentCulture) == 0)
 				return;
 			WriteLine(e.Message);
 		}
 
 
-		void eventSource_ErrorRaised(object sender, BuildErrorEventArgs e) {
+		void eventSource_ErrorRaised(object sender, Microsoft.Build.Framework.BuildErrorEventArgs e) {
 			if (String.Compare(e.SenderName, "MSBuild", true, CultureInfo.CurrentCulture) == 0)
 				return;
 			WriteLine(FormatErrorEvent(e));
 		}
 
-		void eventSource_WarningRaised(object sender, BuildWarningEventArgs e) {
+		void eventSource_WarningRaised(object sender, Microsoft.Build.Framework.BuildWarningEventArgs e) {
 			if (String.Compare(e.SenderName, "MSBuild", true, CultureInfo.CurrentCulture) == 0)
 				return;
 			WriteLine(FormatWarningEvent(e));
@@ -188,7 +184,8 @@ namespace Krkal.CodeGenerator
 		public override void Shutdown() {
 		}
 
-	}
+
+    }
 
 
 
