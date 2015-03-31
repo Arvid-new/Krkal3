@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.Compiler.Launcher", "Krkal.Compiler.Launcher\Krkal.Compiler.Launcher.csproj", "{838B8AEA-C0C6-4608-B8AA-17F3FC4DE9D9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2} = {C9BAC229-73D7-4CB8-BAFC-8ED236F2F0C2}
@@ -123,6 +125,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal.RunIde", "Krkal.RunIde\Krkal.RunIde.csproj", "{9BFEA5DB-E527-4A30-B869-F10FC3405211}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Krkal.NativeConsoleGames", "Krkal.NativeConsoleGames\Krkal.NativeConsoleGames.vcxproj", "{3FA0172E-1B36-46C1-9324-DAC42158C98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Krkal20.LevelInfoWriter", "Krkal20.LevelInfoWriter\Krkal20.LevelInfoWriter.csproj", "{C367E6AA-64F4-49E1-AF7E-A94218624382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -588,6 +592,27 @@ Global
 		{3FA0172E-1B36-46C1-9324-DAC42158C98F}.TEST|Win32.Build.0 = Release|Win32
 		{3FA0172E-1B36-46C1-9324-DAC42158C98F}.TEST|x64.ActiveCfg = Release|Win32
 		{3FA0172E-1B36-46C1-9324-DAC42158C98F}.TEST|x86.ActiveCfg = Release|Win32
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|Win32.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|x64.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.Release|x86.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|Any CPU.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|Any CPU.Build.0 = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|Mixed Platforms.Build.0 = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|Win32.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|x64.ActiveCfg = Release|Any CPU
+		{C367E6AA-64F4-49E1-AF7E-A94218624382}.TEST|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
