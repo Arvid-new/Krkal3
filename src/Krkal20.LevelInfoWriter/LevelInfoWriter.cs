@@ -30,13 +30,16 @@ namespace Krkal20.LevelInfoWriter
             {
                 for (int f = 0; f < dir.Count; f++)
                 {
-                    String path = Path.Combine(levels,dir.GetName(f), "!level");
-                    using (var regFile = new FSRegisterFile(path, "KRKAL LEVEL"))
+                    if (dir.GetName(f).EndsWith(".lv", StringComparison.OrdinalIgnoreCase))
                     {
-                        var li = new LevelInfo(regFile.Reg, Path.GetFileNameWithoutExtension(dir.GetName(f)));
-                        writer.WriteLine();
-                        writer.WriteLine(dir.GetName(f));
-                        li.Write(writer);
+                        String path = Path.Combine(levels, dir.GetName(f), "!level");
+                        using (var regFile = new FSRegisterFile(path, "KRKAL LEVEL"))
+                        {
+                            var li = new LevelInfo(regFile.Reg, Path.GetFileNameWithoutExtension(dir.GetName(f)));
+                            writer.WriteLine();
+                            writer.WriteLine(dir.GetName(f));
+                            li.Write(writer);
+                        }
                     }
                 }
             }
