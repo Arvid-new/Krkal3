@@ -38,6 +38,7 @@ namespace Krkal20.LevelInfoWriter
         public double Difficulty;
         public eMMLevelTags Tags;
         public Dictionary<String, String> LocalNames;
+        public String Music;
 
         public LevelInfo(FSRegister reg, string fileName)
         {
@@ -56,6 +57,8 @@ namespace Krkal20.LevelInfoWriter
                 Directory = key.StringRead();
             if (!(key = reg.FindKey("Password")).IsNull)
                 Password = key.StringRead();
+            if (!(key = reg.FindKey("Music")).IsNull)
+                Music = key.StringRead();
             if (!(key = reg.FindKey("Difficulty")).IsNull)
                 Difficulty = key.ReadD();
             if (!(key = reg.FindKey("Tags")).IsNull)
@@ -80,6 +83,7 @@ namespace Krkal20.LevelInfoWriter
             Author = ReadStr(reader, "Author");
             Game = ReadStr(reader, "Game");
             Comment = ReadStr(reader, "Comment");
+            Music = ReadStr(reader, "Music");
             Difficulty = double.Parse(ReadStr(reader, "Difficulty"));
             Tags = (eMMLevelTags)Enum.Parse(typeof(eMMLevelTags), ReadStr(reader, "Tags"));
 
@@ -115,6 +119,7 @@ namespace Krkal20.LevelInfoWriter
             WriteStr(writer, "Author", Author);
             WriteStr(writer, "Game", Game);
             WriteStr(writer, "Comment", Comment);
+            WriteStr(writer, "Music", Music);
             WriteValue(writer, "Difficulty", Difficulty);
             WriteValue(writer, "Tags", Tags);
             WriteValue(writer, "LocalNames", LocalNames == null ? 0 : LocalNames.Count);
@@ -146,18 +151,20 @@ namespace Krkal20.LevelInfoWriter
             this.Author = input.Author;
             this.Game = input.Game;
             this.Comment = input.Comment;
+            this.Music = input.Music;
             this.Difficulty = input.Difficulty;
             this.Tags = input.Tags;
             this.LocalNames = input.LocalNames;
         }
 
 
-        internal void SaveTo(FSRegister reg)
+        internal void SaveTo(FSRegister reg, bool saveMusic)
         {
             DeleteKey(reg, "LVersion");
             DeleteKey(reg, "Author");
             DeleteKey(reg, "Game");
             DeleteKey(reg, "Comment");
+            DeleteKey(reg, "Music");
             DeleteKey(reg, "Directory");
             DeleteKey(reg, "Password");
             DeleteKey(reg, "Difficulty");
@@ -168,6 +175,7 @@ namespace Krkal20.LevelInfoWriter
             if (Author != null) reg.AddKey("Author", FSRegKeyType.String).StringWrite(Author);
             if (Game != null) reg.AddKey("Game", FSRegKeyType.String).StringWrite(Game);
             if (Comment != null) reg.AddKey("Comment", FSRegKeyType.String).StringWrite(Comment);
+            if (Music != null && saveMusic) reg.AddKey("Music", FSRegKeyType.String).StringWrite(Music);
             reg.AddKey("Difficulty", FSRegKeyType.Double).WriteD(Difficulty);
             reg.AddKey("Tags", FSRegKeyType.Int).WriteI((int)Tags);
 

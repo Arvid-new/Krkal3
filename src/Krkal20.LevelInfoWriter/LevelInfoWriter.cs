@@ -63,8 +63,8 @@ namespace Krkal20.LevelInfoWriter
                         var li = new LevelInfo(regFile.Reg, Path.GetFileNameWithoutExtension(dirName));
                         li.Adjust(input);
 
-                        li.SaveTo(regFile.Reg);
-                        li.SaveTo(regFileInfo.Reg);
+                        li.SaveTo(regFile.Reg, true);
+                        li.SaveTo(regFileInfo.Reg, false);
 
                         regFile.WriteFile();
                         regFileInfo.WriteFile();
