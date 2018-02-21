@@ -123,7 +123,7 @@ namespace Runtime {
 
 	void DataSource::SaveObject(Object ^obj, KsidName ^name) {
 		Type ^type = obj->GetType();
-		array<Object^>^ attributes = type->GetCustomAttributes(DataObjectClassAttribute::typeid, true);
+		cli::array<Object^>^ attributes = type->GetCustomAttributes(DataObjectClassAttribute::typeid, true);
 		if (attributes->Length == 0)
 			return;
 
@@ -284,14 +284,14 @@ namespace Runtime {
 
 		for each(PropertyInfo ^propertyInfo in type->GetProperties()) {
 			if (propertyInfo->CanWrite) {
-				array<Object^>^ attributes = propertyInfo->GetCustomAttributes(DataObjectMappingAttribute::typeid, true);
+				cli::array<Object^>^ attributes = propertyInfo->GetCustomAttributes(DataObjectMappingAttribute::typeid, true);
 				if (attributes->Length == 1) {
 					CKerName *varName = _kernel->KerNamesMain->GetNamePointer(CStringToCharPtr(safe_cast<DataObjectMappingAttribute^>(attributes[0])->Name));
 					Type ^innerType = nullptr;
 					if (varName && CheckTypeCompatibility(propertyInfo->PropertyType, varName->LT, innerType)) {
 						Object ^value;
 						if (LoadVariable(value, propertyInfo->PropertyType, innerType, varName, name2)) {
-							array<Object^>^ prms = gcnew array<Object^>(1);
+							cli::array<Object^>^ prms = gcnew cli::array<Object^>(1);
 							prms[0] = value;
 							propertyInfo->GetSetMethod()->Invoke(obj, prms);
 						}
@@ -357,7 +357,7 @@ namespace Runtime {
 	Type ^DataSource::CreateListType(Type ^innerType, int dimCount) {
 		Type ^res = innerType;
 		for (int f=0; f < dimCount; f++) {
-			array<Type^>^ arr = gcnew array<Type^>(1);
+			cli::array<Type^>^ arr = gcnew cli::array<Type^>(1);
 			arr[0] = res;
 			if (f == dimCount-1) {
 				res = List::typeid->MakeGenericType(arr);

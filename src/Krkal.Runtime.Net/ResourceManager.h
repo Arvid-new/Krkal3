@@ -32,7 +32,7 @@ namespace Krkal {
 				wstring Comment;
 				UI date;
 			};
-			typedef hash_map<string, STrnField> MapT;
+			typedef unordered_map<string, STrnField> MapT;
 			typedef pair<string, ::FILETIME> FileT;
 			typedef vector<FileT> FilesT;
 

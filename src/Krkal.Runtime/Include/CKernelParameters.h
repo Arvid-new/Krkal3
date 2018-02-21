@@ -41,7 +41,7 @@ public:
 		::FILETIME FileTime;
 	};
 	typedef void (*loggingCallBackT)(void *handle, int time, int ErrorNum, int ErrorParam, const char *ErrorStr);
-	typedef hash_map<string, SUsedFilesInfo > UsedFilesT;
+	typedef unordered_map<string, SUsedFilesInfo > UsedFilesT;
 
 	CKernelParameters() {
 		DefaultInit();

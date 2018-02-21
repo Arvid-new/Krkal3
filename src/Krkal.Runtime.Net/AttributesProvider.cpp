@@ -95,7 +95,7 @@ namespace Runtime {
 		if (!arr || !arr->GetCount()) {
 			_filter = nullptr;
 		} else {
-			_filter = gcnew array<NameType>(arr->GetCount());
+			_filter = gcnew cli::array<NameType>(arr->GetCount());
 			for (int f=0; f<arr->GetCount(); f++) {
 				_filter[f] = (NameType)arr->At(f);
 			}

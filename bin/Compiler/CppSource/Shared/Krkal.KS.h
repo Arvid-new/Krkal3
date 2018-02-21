@@ -24,15 +24,15 @@
 #include "CKerMain.h"
 #include "KerServices.h"
 #include "KerContext.h"
-#include <hash_map>
+#include <unordered_map>
 #include <string>
 
 using namespace stdext;
 using namespace std;
 
 
-typedef hash_map<string, void (*)()> mPointers_map;
-typedef hash_map<CKerName*, void (*)()> iPointers_map;
+typedef unordered_map<string, void (*)()> mPointers_map;
+typedef unordered_map<CKerName*, void (*)()> iPointers_map;
 
 class CKrkalKS : public KsInterface {
 public:

@@ -4,7 +4,7 @@
 #define FS_ARCHIVE_H
 
 #include "fs.api.h"
-#include <hash_map>
+#include <unordered_map>
 #include <set>
 #include <string>
 
@@ -109,7 +109,7 @@ private:
 	int WriteFileData(const char *buf, int size, int oldoffset, unsigned char compr);
 	int ReadFileData(int offset, char *buf, int bufsize);
 
-	typedef stdext::hash_map<int, CFSDir*> dirOffsetsT;
+	typedef std::unordered_map<int, CFSDir*> dirOffsetsT;
 	void FillDirOffsets(dirOffsetsT &offsets);
 
 	CFSDirItem *items;

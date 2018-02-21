@@ -4,7 +4,7 @@
 #define NameSearch_H
 
 #include "types.h"
-#include <hash_map>
+#include <unordered_map>
 #include <string>
 #include <vector>
 #include <set>
@@ -47,7 +47,7 @@ public:
 
 private:
 
-	typedef stdext::hash_map<std::string, std::string> keysT;
+	typedef std::unordered_map<std::string, std::string> keysT;
 	typedef std::vector<std::string> slistT;
 	typedef CPathTree<std::string> keysTreeT;
 
@@ -231,7 +231,7 @@ public:
 	void GetRoots(class CFSSearchData2 *sd);
 private:
 	typedef CPathTree<CFSDirCacheInfo> treeT;
-	typedef stdext::hash_multimap<std::string, std::string> mapT;
+	typedef std::unordered_multimap<std::string, std::string> mapT;
 	typedef std::vector<CDirChangesReader*> readersT;
 	typedef CPathTree<EChangeType> changeTreeT;
 	

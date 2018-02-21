@@ -60,11 +60,11 @@ namespace Krkal.RunIde
 			this.binPath.Name = "binPath";
 			this.binPath.Size = new System.Drawing.Size(326, 20);
 			this.binPath.TabIndex = 1;
-            this.binPath.Text = @"c:\Program Files (x86)\MSBuild\12.0\Bin";
-			// 
-			// label1
-			// 
-			this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.binPath.Text = @"c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.label1.AutoSize = true;
 			this.label1.Location = new System.Drawing.Point(7, 283);
 			this.label1.Name = "label1";

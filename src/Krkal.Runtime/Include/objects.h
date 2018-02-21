@@ -16,7 +16,7 @@
 #include "LanguageType.h"
 #include "GarbageCollector.h"
 
-#include <hash_map>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;
@@ -101,8 +101,8 @@ struct KRKALRUNTIME_API CKerOVar : public CKerField {
 
 
 class CKerObjectT_BackEnd {
-	typedef hash_map<CKerName*, int> _baseObjectsT;
-	typedef hash_map<CKerName*, CKerOVar*> _variablesT;
+	typedef unordered_map<CKerName*, int> _baseObjectsT;
+	typedef unordered_map<CKerName*, CKerOVar*> _variablesT;
 public:
 	typedef vector<CKerOVar*> _ptrAreaT;
 

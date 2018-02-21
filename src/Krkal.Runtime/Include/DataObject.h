@@ -16,7 +16,7 @@
 #include "LanguageType.h"
 #include "OPointer.h"
 
-#include <hash_map>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;
@@ -70,7 +70,7 @@ private:
 class CDataObjectBackEnd {
 public:
 	typedef vector<CDataObjectField*> FieldsT;
-	typedef hash_map<CKerName*, CDataObjectField*> FieldsMapT;
+	typedef unordered_map<CKerName*, CDataObjectField*> FieldsMapT;
 	~CDataObjectBackEnd() {
 		for (FieldsT::iterator i = _fields.begin(); i != _fields.end(); ++i) {
 			delete *i;

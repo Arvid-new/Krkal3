@@ -38,10 +38,10 @@ namespace Krkal {
 				x=X; y=Y; dx=DX; dy=DY;
 			}
 
-			array<String^>^ GetBitmapNames(int x, int y) {
+			cli::array<String^>^ GetBitmapNames(int x, int y) {
 				int count=0;
 				for (CKerObjectEx *ex = _services->GetFirstObj(x, y); ex; ex = ex->MapInfo->next) count++;
-				array<String^>^ arr = gcnew array<String^>(count);
+				cli::array<String^>^ arr = gcnew cli::array<String^>(count);
 
 				count=0;
 				for (CKerObjectEx *ex = _services->GetFirstObj(x, y); ex; ex = ex->MapInfo->next, count++) {
@@ -51,10 +51,10 @@ namespace Krkal {
 			}
 
 
-			array<KerObject>^ GetObjects(int x, int y) {
+			cli::array<KerObject>^ GetObjects(int x, int y) {
 				int count=0;
 				for (CKerObjectEx *ex = _services->GetFirstObj(x, y); ex; ex = ex->MapInfo->next) count++;
-				array<KerObject>^ arr = gcnew array<KerObject>(count);
+				cli::array<KerObject>^ arr = gcnew cli::array<KerObject>(count);
 
 				count=0;
 				for (CKerObjectEx *ex = _services->GetFirstObj(x, y); ex; ex = ex->MapInfo->next, count++) {

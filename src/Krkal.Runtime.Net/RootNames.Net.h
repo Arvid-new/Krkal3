@@ -39,11 +39,11 @@ namespace Krkal {
 
 			KerMain ^GetKernel() { return gcnew KerMain(_rootNames->GetKernel()); }
 
-			static array<String^>^ GetFiles(String ^rootName, KerNameType nameType, bool reloadIfNeeded) {
+			static cli::array<String^>^ GetFiles(String ^rootName, KerNameType nameType, bool reloadIfNeeded) {
 				vector<string> *files = CRootNames::GetRootNames()->GetFiles(CStringToCharPtr(rootName), (eKerNameType)nameType, reloadIfNeeded);
 				if (!files)
 					return nullptr;
-				array<String^>^ ret = gcnew array<String^>(files->size());
+				cli::array<String^>^ ret = gcnew cli::array<String^>(files->size());
 				int f=0;
 				for (vector<string>::iterator i = files->begin(); i != files->end(); ++i, ++f) {
 					ret[f] = gcnew String(i->c_str());

@@ -23,9 +23,9 @@ class CKerSaver {
 public:
 	typedef pair<CFSRegister*, int> RegOrdT;
 	typedef pair<CFSRegKey*, int> KeyOrdT;
-	typedef hash_map<CKerName*, RegOrdT> NamesMapT;
-	typedef hash_map<CKerObject*, RegOrdT> ObjectsMapT;
-	typedef hash_map<CKerArrBase*, KeyOrdT> ArraysMapT;
+	typedef unordered_map<CKerName*, RegOrdT> NamesMapT;
+	typedef unordered_map<CKerObject*, RegOrdT> ObjectsMapT;
+	typedef unordered_map<CKerArrBase*, KeyOrdT> ArraysMapT;
 
 
 	CKerSaver(CKerMain *kerMain, const char *file, eKerSavingFlags flags, ArrPtr<NamePtr> names, ArrPtr<NamePtr> dependencies, ArrPtr<NamePtr> dataObjects);

@@ -38,7 +38,7 @@
 #include <math.h>
 #include <memory.h>
 #include <string>
-#include <hash_map>
+#include <unordered_map>
 #include <vector>
 #include <set>
 

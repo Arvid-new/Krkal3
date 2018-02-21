@@ -71,8 +71,8 @@ public:
 private:
 	typedef pair<CFSRegister*, CKerObject*> RegObjT;
 	typedef vector<RegObjT> ObjectsT;
-	typedef hash_map<CKerName*, int> NamesOrdinalsT;
-	typedef hash_map<string, CKerField*> FieldsCacheT;
+	typedef unordered_map<CKerName*, int> NamesOrdinalsT;
+	typedef unordered_map<string, CKerField*> FieldsCacheT;
 
 	CKerMain *KerMain;
 	const char *_codePath;

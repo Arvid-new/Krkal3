@@ -50,7 +50,7 @@ namespace Krkal {
 		private:
 			String ^_ksidName;
 			AttributeLocation _location;
-			array<NameType>^ _filter;
+			cli::array<NameType>^ _filter;
 		};
 
 

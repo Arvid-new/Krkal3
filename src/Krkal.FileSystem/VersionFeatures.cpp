@@ -66,7 +66,7 @@ bool CVersionFeatures::CheckFeatures(CFSRegister *reg) {
 }
 
 
-bool CVersionFeatures::CheckFeature(const string &feature, int version, hash_map<string, int> &map) {
+bool CVersionFeatures::CheckFeature(const string &feature, int version, unordered_map<string, int> &map) {
 	FeatureMapT::iterator i = map.find(feature);
 	int ver = i == map.end() ? 0 : i->second;
 	return ver >= version;

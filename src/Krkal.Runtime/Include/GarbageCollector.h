@@ -15,7 +15,7 @@
 
 #include "Krkal.Runtime.h"
 #include <list>
-#include <hash_map>
+#include <unordered_map>
 #include <stack>
 
 using namespace std;
@@ -47,7 +47,7 @@ class CGarbageCollector : public IGarbageCollector{
 friend CKerMain;
 friend class CKerSaver;
 	typedef list<CManagedObject*> listT;
-	typedef hash_map<CManagedObject*, int> mapT;
+	typedef unordered_map<CManagedObject*, int> mapT;
 	typedef stack<CManagedObject*> stackT;
 
 public:
