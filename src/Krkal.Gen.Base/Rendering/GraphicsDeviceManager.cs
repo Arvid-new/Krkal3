@@ -65,7 +65,7 @@ namespace Krkal.GEn.Base
         /// Gets or sets the Direct3D9 object.
         /// </summary>
         /// <value>The Direct3D9 object.</value>
-        internal static Direct3D Direct3D9Object
+        internal static SlimDX.Direct3D9.Direct3D Direct3D9Object
         {
             get;
             private set;
@@ -996,57 +996,59 @@ namespace Krkal.GEn.Base
 
         void SetupD3D10Views()
         {
-            Texture2D backBuffer = Direct3D10.SwapChain.GetBuffer<Texture2D>(0);
+            throw new NotImplementedException();
 
-            Viewport viewport = new Viewport();
-            viewport.Width = backBuffer.Description.Width;
-            viewport.Height = backBuffer.Description.Height;
-            viewport.MinZ = 0;
-            viewport.MaxZ = 1;
-            viewport.X = 0;
-            viewport.Y = 0;
-            Direct3D10.Device.Rasterizer.SetViewports(viewport);
+            //Texture2D backBuffer = Direct3D10.SwapChain.GetBuffer<Texture2D>(0);
 
-            Direct3D10.RenderTarget = new RenderTargetView(Direct3D10.Device, backBuffer);
+            //Viewport viewport = new Viewport();
+            //viewport.Width = backBuffer.Description.Width;
+            //viewport.Height = backBuffer.Description.Height;
+            //viewport.MinZ = 0;
+            //viewport.MaxZ = 1;
+            //viewport.X = 0;
+            //viewport.Y = 0;
+            //Direct3D10.Device.Rasterizer.SetViewports(viewport);
 
-            if (CurrentSettings.Direct3D10.DepthStencilFormat != SlimDX.DXGI.Format.Unknown)
-            {
-                Texture2DDescription desc = new Texture2DDescription();
-                desc.Width = backBuffer.Description.Width;
-                desc.Height = backBuffer.Description.Height;
-                desc.MipLevels = 1;
-                desc.ArraySize = 1;
-                desc.Format = CurrentSettings.Direct3D10.DepthStencilFormat;
-                desc.SampleDescription = CurrentSettings.Direct3D10.SwapChainDescription.SampleDescription;
-                desc.Usage = ResourceUsage.Default;
-                desc.BindFlags = BindFlags.DepthStencil;
-                desc.CpuAccessFlags = CpuAccessFlags.None;
-                desc.OptionFlags = ResourceOptionFlags.None;
+            //Direct3D10.RenderTarget = new RenderTargetView(Direct3D10.Device, backBuffer);
 
-                DepthStencilViewDescription dsvd = new DepthStencilViewDescription();
-                dsvd.Format = desc.Format;
-                if (desc.SampleDescription.Count > 1)
-                    dsvd.Dimension = DepthStencilViewDimension.Texture2DMultisampled;
-                else
-                    dsvd.Dimension = DepthStencilViewDimension.Texture2D;
-                Direct3D10.DepthStencil = new Texture2D(Direct3D10.Device, desc);
-                Direct3D10.DepthStencilView = new DepthStencilView(Direct3D10.Device, Direct3D10.DepthStencil, dsvd);
+            //if (CurrentSettings.Direct3D10.DepthStencilFormat != SlimDX.DXGI.Format.Unknown)
+            //{
+            //    Texture2DDescription desc = new Texture2DDescription();
+            //    desc.Width = backBuffer.Description.Width;
+            //    desc.Height = backBuffer.Description.Height;
+            //    desc.MipLevels = 1;
+            //    desc.ArraySize = 1;
+            //    desc.Format = CurrentSettings.Direct3D10.DepthStencilFormat;
+            //    desc.SampleDescription = CurrentSettings.Direct3D10.SwapChainDescription.SampleDescription;
+            //    desc.Usage = ResourceUsage.Default;
+            //    desc.BindFlags = BindFlags.DepthStencil;
+            //    desc.CpuAccessFlags = CpuAccessFlags.None;
+            //    desc.OptionFlags = ResourceOptionFlags.None;
 
-                RasterizerStateDescription rsDesc = new RasterizerStateDescription();
-                rsDesc.FillMode = SlimDX.Direct3D10.FillMode.Solid;
-                rsDesc.CullMode = CullMode.Back;
-                rsDesc.IsDepthClipEnabled = true;
-                if (desc.SampleDescription.Count > 1)
-                    rsDesc.IsMultisampleEnabled = true;
-                else
-                    rsDesc.IsMultisampleEnabled = false;
+            //    DepthStencilViewDescription dsvd = new DepthStencilViewDescription();
+            //    dsvd.Format = desc.Format;
+            //    if (desc.SampleDescription.Count > 1)
+            //        dsvd.Dimension = DepthStencilViewDimension.Texture2DMultisampled;
+            //    else
+            //        dsvd.Dimension = DepthStencilViewDimension.Texture2D;
+            //    Direct3D10.DepthStencil = new Texture2D(Direct3D10.Device, desc);
+            //    Direct3D10.DepthStencilView = new DepthStencilView(Direct3D10.Device, Direct3D10.DepthStencil, dsvd);
 
-                Direct3D10.RasterizerState = RasterizerState.FromDescription(Direct3D10.Device, rsDesc);
-                Direct3D10.Device.Rasterizer.State = Direct3D10.RasterizerState;
-            }
+            //    RasterizerStateDescription rsDesc = new RasterizerStateDescription();
+            //    rsDesc.FillMode = SlimDX.Direct3D10.FillMode.Solid;
+            //    rsDesc.CullMode = CullMode.Back;
+            //    rsDesc.IsDepthClipEnabled = true;
+            //    if (desc.SampleDescription.Count > 1)
+            //        rsDesc.IsMultisampleEnabled = true;
+            //    else
+            //        rsDesc.IsMultisampleEnabled = false;
 
-            Direct3D10.Device.OutputMerger.SetTargets(Direct3D10.DepthStencilView, Direct3D10.RenderTarget);
-            backBuffer.Dispose();
+            //    Direct3D10.RasterizerState = RasterizerState.FromDescription(Direct3D10.Device, rsDesc);
+            //    Direct3D10.Device.Rasterizer.State = Direct3D10.RasterizerState;
+            //}
+
+            //Direct3D10.Device.OutputMerger.SetTargets(Direct3D10.DepthStencilView, Direct3D10.RenderTarget);
+            //backBuffer.Dispose();
         }
 
         int GetAdapterOrdinal(IntPtr screen)

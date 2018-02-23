@@ -42,7 +42,7 @@ namespace Krkal.GEn.Base
         Size cachedSize;
         bool minimized;
         bool maximized;
-        bool inSizeMove;
+ //       bool inSizeMove;
 
         /// <summary>
         /// Occurs when the application is suspended.
@@ -245,7 +245,7 @@ namespace Krkal.GEn.Base
             base.OnResizeBegin(e);
 
             // suspend any processing until we are done being minimized
-            inSizeMove = true;
+            //inSizeMove = true;
             cachedSize = Size;
             OnSuspend(EventArgs.Empty);
         }
@@ -261,7 +261,7 @@ namespace Krkal.GEn.Base
             // check for screen and size changes
             OnUserResized(EventArgs.Empty);
             UpdateScreen();
-            inSizeMove = false;
+           // inSizeMove = false;
 
             // resume application processing
             OnResume(EventArgs.Empty);

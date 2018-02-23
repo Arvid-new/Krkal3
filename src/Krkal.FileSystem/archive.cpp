@@ -1479,6 +1479,8 @@ int CFSDir::Rename(const char *oldname, const char *newname, CFSDir *newdir)
 
 	if(!FS->IsValidFilename(oldname)) return 0;
 	if(!FS->IsValidFilename(newname)) return 0;
+	size_t newnameLen = strlen(newname);
+	if (newnameLen >= 256) return 0;
 
 	CFSDirItem **itm,*it;
 
@@ -1501,7 +1503,7 @@ int CFSDir::Rename(const char *oldname, const char *newname, CFSDir *newdir)
 	FS->dirCache->InsertChange(CFSCfg::NormalizePath(s), CTdeleted);
 
 	SAFE_DELETE_ARRAY(it->name);
-    it->namelen=(int)strlen(newname);
+	it->namelen = (UC)newnameLen;
 	it->name=new char[it->namelen+1];
 	strcpy(it->name,newname);
 
@@ -1668,8 +1670,9 @@ int CFSDirItem::Create(const char *_name, char _dir, int _offset)
 {
 	SAFE_DELETE_ARRAY(name);
 
-	namelen=(int)strlen(_name);
-	if(namelen>256) return 0;
+	size_t len = strlen(_name);
+	if (len>=256) return 0;
+	namelen = (UC)len;
 
 	name=new char[namelen+1];
 	memcpy(name,_name,namelen+1);
